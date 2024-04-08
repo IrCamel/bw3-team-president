@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
-import { iProduct } from '../models/product';
-import { ProductService } from '../services/product.service';
+import { iProduct } from '../../models/product';
+import { ProductService } from '../../services/product.service';
 
 @Component({
   selector: 'app-landing-page',

@@ -3,7 +3,7 @@
   "product": [
     {
       "id": 1,
-      "image": "spada_marvel.jpg",
+      "image": "./assets/agamotto_amuleto-removebg-preview.png",
       "name": "Mjolnir",
       "price": 500,
       "category": "Marvel",
@@ -11,7 +11,7 @@
     },
  {
       "id": 2,
-      "image": "spada_marvel.jpg",
+      "image": "./assets/images/scudo_cap-removebg-preview.png",
       "name": "Scudo di Captain America",
       "price": 350,
       "category": "Marvel",
@@ -19,7 +19,7 @@
     },
     {
       "id": 3,
-      "image": "spada_marvel.jpg",
+      "image": "./assets/images/stormbreaker-removebg-preview.png",
       "name": "Stormbreaker",
       "price": 600,
       "category": "Marvel",
@@ -27,7 +27,7 @@
     },
 {
       "id": 4,
-      "image": "spada_marvel.jpg",
+      "image": "./assets/images/spada_deadpool-removebg-preview.png",
       "name": "Spada di Deadpool",
       "price": 400,
       "category": "Marvel",
@@ -35,7 +35,7 @@
     },
 {
       "id": 5,
-      "image": "mantello_marvel.jpg",
+      "image": "./assets/images/agamotto_amuleto-removebg-preview.png",
       "name": "Amuleto di Agamotto",
       "price": 1400,
       "category": "Marvel",
@@ -43,7 +43,7 @@
     },
     {
       "id": 6,
-      "image": "mantello_marvel.jpg",
+      "image": "./src/assets/images/guanto_thanos-removebg-preview.png",
       "name": "Guanto del Potere",
       "price": 2000,
       "category": "Marvel",
@@ -51,7 +51,7 @@
     },
 {
       "id": 7,
-      "image": "mantello_marvel.jpg",
+      "image": "./src/assets/images/tesseract-removebg-preview.png",
       "name": "Tesseract",
       "price": 1800,
       "category": "Marvel",
@@ -59,7 +59,7 @@
     },
  {
     "id": 8,
-    "image": "https://example.com/arma2.jpg",
+    "image": "./assets/images/arco_hawkeye-removebg-preview.png",
     "name": "Arco di Hawkeye",
     "price": 149.99,
     "category": "Marvel",
@@ -67,7 +67,7 @@
   },
  {
     "id": 9,
-    "image": "https://example.com/lancia2.jpg",
+    "image": "./assets/images/lancia_loki-removebg-preview.png",
     "name": "Lancia di Loki",
     "price": 199.99,
     "category": "Marvel",
@@ -75,7 +75,7 @@
   },
 {
     "id": 10,
-    "image": "https://example.com/casco1.jpg",
+    "image": "./assets/images/iron_man_casco-removebg-preview.png",
     "name": "Casco di Iron Man",
     "price": 199.99,
     "category": "Marvel",
@@ -83,7 +83,7 @@
   },
 {
       "id": 11,
-      "image": "spada_starwars.jpg",
+      "image": "./assets/images/spada_luke_skywalker-removebg-preview.png",
       "name": "Lightsaber di Luke Skywalker",
       "price": 700,
       "category": "Star Wars",
@@ -91,7 +91,7 @@
     },
 {
       "id": 12,
-      "image": "spada_starwars.jpg",
+      "image": "./assets/images/darth_vader_saber-removebg-preview.png",
       "name": "Lightsaber di Darth Vader",
       "price": 800,
       "category": "Star Wars",

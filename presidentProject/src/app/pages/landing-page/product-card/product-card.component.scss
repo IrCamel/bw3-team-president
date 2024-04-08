@@ -13,7 +13,7 @@
 
 .card {
   overflow: visible;
-  width: 210px;
+  width: 100%;
   height: 294px;
 }
 
@@ -114,6 +114,30 @@
   background-color: #00000099;
   backdrop-filter: blur(5px);
   border-radius: 5px;
+  .description-text{
+    height: 180px;
+    overflow-y: auto;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #871101;
+    border-radius: 10px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #871101;
+  }
 }
 
 .title {
