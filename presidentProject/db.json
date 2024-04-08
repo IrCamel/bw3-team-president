@@ -1,3 +1,405 @@
 {
-  "users" : []
+  "users" : [],
+  "product": [
+    {
+      "id": 1,
+      "image": "spada_marvel.jpg",
+      "name": "Mjolnir",
+      "price": 500,
+      "category": "Marvel",
+      "description": "La potente mazza di Thor, incantata da magia e capace di controllare il tuono."
+    },
+ {
+      "id": 2,
+      "image": "spada_marvel.jpg",
+      "name": "Scudo di Captain America",
+      "price": 350,
+      "category": "Marvel",
+      "description": "L'iconico scudo del Capitano America, realizzato in vibranio e resistente a qualsiasi attacco."
+    },
+    {
+      "id": 3,
+      "image": "spada_marvel.jpg",
+      "name": "Stormbreaker",
+      "price": 600,
+      "category": "Marvel",
+      "description": "L'arma usata da Thor, un'ascia imponente e potente, capace di schiacciare qualsiasi nemico."
+    },
+{
+      "id": 4,
+      "image": "spada_marvel.jpg",
+      "name": "Spada di Deadpool",
+      "price": 400,
+      "category": "Marvel",
+      "description": "La spada di Deadpool, affilata e letale, usata per tagliare i suoi nemici con un tocco di umorismo."
+    },
+{
+      "id": 5,
+      "image": "mantello_marvel.jpg",
+      "name": "Amuleto di Agamotto",
+      "price": 1400,
+      "category": "Marvel",
+      "description": "L'Amuleto di Agamotto, un artefatto mistico usato da Dr. Strange per manipolare il tempo e l'illusione."
+    },
+    {
+      "id": 6,
+      "image": "mantello_marvel.jpg",
+      "name": "Guanto del Potere",
+      "price": 2000,
+      "category": "Marvel",
+      "description": "Il Guanto del Potere, un artefatto forgiato da Thanos e usato per contenere le sei Gemme dell'Infinito, conferendo potere assoluto a chi lo indossa."
+    },
+{
+      "id": 7,
+      "image": "mantello_marvel.jpg",
+      "name": "Tesseract",
+      "price": 1800,
+      "category": "Marvel",
+      "description": "Il Tesseract, noto anche come Cubo Cosmico, un artefatto contenente il Potere dello Spazio e capace di aprire portali attraverso l'universo."
+    },
+ {
+    "id": 8,
+    "image": "https://example.com/arma2.jpg",
+    "name": "Arco di Hawkeye",
+    "price": 149.99,
+    "category": "Marvel",
+    "description": "L'arma specializzata di Hawkeye, l'arciere supremo, con precisione e potenza incredibili per combattere contro i criminali."
+  },
+ {
+    "id": 9,
+    "image": "https://example.com/lancia2.jpg",
+    "name": "Lancia di Loki",
+    "price": 199.99,
+    "category": "Marvel",
+    "description": "La lancia di Loki, il famigerato Dio dell'Inganno, con poteri mistici e capacità di controllare le menti degli altri."
+  },
+{
+    "id": 10,
+    "image": "https://example.com/casco1.jpg",
+    "name": "Casco di Iron Man",
+    "price": 199.99,
+    "category": "Marvel",
+    "description": "Il casco iconico indossato da Iron Man, con l'ultima tecnologia di Stark Industries."
+  },
+{
+      "id": 11,
+      "image": "spada_starwars.jpg",
+      "name": "Lightsaber di Luke Skywalker",
+      "price": 700,
+      "category": "Star Wars",
+      "description": "La spada laser di Luke Skywalker, simbolo della Forza e usata per combattere il Lato Oscuro."
+    },
+{
+      "id": 12,
+      "image": "spada_starwars.jpg",
+      "name": "Lightsaber di Darth Vader",
+      "price": 800,
+      "category": "Star Wars",
+      "description": "La spada laser rossa usata da Darth Vader, un'arma temibile nelle mani del Signore Oscuro dei Sith."
+    },
+{
+      "id": 13,
+      "image": "spada_starwars.jpg",
+      "name": "Lightsaber di Ahsoka Tano",
+      "price": 600,
+      "category": "Star Wars",
+      "description": "La spada laser di Ahsoka Tano, usata per difendere i deboli e combattere l'oppressione."
+    },
+{
+      "id": 14,
+      "image": "casco_starwars.jpg",
+      "name": "Elmo del Mandaloriano",
+      "price": 2000,
+      "category": "Star Wars",
+      "description": "L'elmo del Mandaloriano, indossato dai guerrieri Mandaloriani come simbolo di onore e rispetto per la loro cultura guerriera."
+    },
+    {
+      "id": 15,
+      "image": "casco_starwars.jpg",
+      "name": "Casco di Darth Vader",
+      "price": 2500,
+      "category": "Star Wars",
+      "description": "Il Casco di Darth Vader, iconico simbolo del lato oscuro della Forza, indossato dall'ex Jedi Anakin Skywalker dopo la sua trasformazione in Signore dei Sith."
+    },
+{
+    "id": 16,
+    "image": "https://example.com/spada6.jpg",
+    "name": "Lightsaber di Darth Maul",
+    "price": 299.99,
+    "category": "Star Wars",
+    "description": "La spada laser a doppia lama di Darth Maul, il temibile Signore dei Sith, usata durante i suoi combattimenti contro i Jedi."
+  },
+ {
+      "id": 17,
+      "image": "mantello_starwars.jpg",
+      "name": "Amuleto Jedi",
+      "price": 1200,
+      "category": "Star Wars",
+      "description": "L'Amuleto Jedi, un artefatto usato dai cavalieri Jedi per proteggere la loro mente dalle influenze oscure della Forza."
+    },
+{
+  "id": 18,
+  "image": "spada_starwars.jpg",
+  "name": "Lightsaber di Mace Windu",
+  "price": 2200,
+  "category": "Star Wars",
+  "description": "La Spada laser di Mace Windu, con la sua lama viola distintiva, è un'arma iconica usata dal potente Maestro Jedi Mace Windu durante le Guerre dei Cloni e i combattimenti contro i Sith."
+},
+ {
+      "id": 19,
+      "image": "oggetto_starwars.jpg",
+      "name": "Casco da Pilota X-wing",
+      "price": 1800,
+      "category": "Star Wars",
+      "description": "Il Casco da Pilota X-wing, indossato dai piloti dell'Alleanza Ribelle durante le missioni di combattimento a bordo degli X-wing, dotato di visore e comunicatore integrati."
+    },
+{
+      "id": 20,
+      "image": "oggetto_starwars.jpg",
+      "name": "Holocrone Jedi",
+      "price": 1800,
+      "category": "Star Wars",
+      "description": "L'Holocrone Jedi, un dispositivo contenente antichi insegnamenti e conoscenze della Forza, utilizzato dai Jedi per la loro formazione spirituale."
+    },
+{
+      "id": 21,
+      "image": "casco_dc.jpg",
+      "name": "Elmo di Batman",
+      "price": 400,
+      "category": "DC",
+      "description": "L'iconico elmo di Batman, usato per proteggere l'identità segreta di Bruce Wayne mentre combatte il crimine."
+    },
+{
+      "id": 22,
+      "image": "casco_dc.jpg",
+      "name": "Elmo di Flash",
+      "price": 350,
+      "category": "DC",
+      "description": "L'elmo di Flash, indossato dal velocista scarlatto mentre attraversa il tempo e lo spazio."
+    },
+{
+      "id": 23,
+      "image": "casco_dc.jpg",
+      "name": "Elmo di Deathstroke",
+      "price": 700,
+      "category": "DC",
+      "description": "L'elmo di Deathstroke, mercenario e assassino noto per la sua abilità senza pari nel combattimento."
+    },
+ {
+      "id": 24,
+      "image": "anello_greenlantern.jpg",
+      "name": "Anello dei Green Lantern",
+      "price": 2500,
+      "category": "DC",
+      "description": "L'Anello dei Green Lantern, un potente anello alimentato dalla volontà e dall'energia del Corpo delle Lanterne Verdi, capace di creare oggetti solidi e manifestare la volontà del suo utilizzatore."
+    },
+    {
+      "id": 25,
+      "image": "mantello_superman.jpg",
+      "name": "Mantello di Superman",
+      "price": 3000,
+      "category": "DC",
+      "description": "Il Mantello di Superman, fatto di tessuto indeformabile Kryptoniano, conferisce al suo possessore resistenza ai danni fisici, invulnerabilità e la capacità di volare."
+    },
+    {
+      "id": 26,
+      "image": "tridente_aquaman.jpg",
+      "name": "Tridente di Aquaman",
+      "price": 2800,
+      "category": "DC",
+      "description": "Il Tridente di Aquaman, un'arma leggendaria con tre punte affilate e capacità mistiche, utilizzato dal Re di Atlantide per comandare i mari e manipolare l'acqua."
+    },
+{
+      "id": 27,
+      "image": "laccio_verita.jpg",
+      "name": "Laccio della Verità",
+      "price": 2000,
+      "category": "DC",
+      "description": "Il Laccio della Verità, un'arma magica usata dalla supereroina Wonder Woman per obbligare i suoi avversari a dire la verità assoluta."
+    },
+{
+      "id": 28,
+      "image": "anello_flash.jpg",
+      "name": "Anello della Velocità",
+      "price": 2200,
+      "category": "DC",
+      "description": "L'Anello della Velocità, un dispositivo utilizzato dal supereroe Flash per controllare la sua velocità sovrumana e viaggiare attraverso il tempo."
+    },
+{
+      "id": 29,
+      "image": "fucile_harleyquinn.jpg",
+      "name": "Martello di Harley Quinn",
+      "price": 2200,
+      "category": "DC",
+      "description": "Il Martello di Harley Quinn, un'arma unica e colorata utilizzata dalla famigerata criminale Harley Quinn, equipaggiata con un arsenale di scherzi esplosivi."
+    },
+{
+  "id": 30,
+  "image": "bastone_enigmista.jpg",
+  "name": "Bastone dell'Enigmista",
+  "price": 2200,
+  "category": "DC",
+  "description": "Il Bastone dell'Enigmista, un'affascinante arma utilizzata dal geniale criminale dell'Enigmista per orchestrare trappole ingenue e sfidare Batman con enigmi complicati."
+},
+ {
+      "id": 31,
+      "image": "oggetto_harrypotter.jpg",
+      "name": "Bacchetta di Harry Potter",
+      "price": 300,
+      "category": "Harry Potter",
+      "description": "La bacchetta di Harry Potter, realizzata in legno di pero e contenente una piuma di fenice."
+    },
+{
+      "id": 32,
+      "image": "oggetto_harrypotter.jpg",
+      "name": "Cappello Parlante",
+      "price": 200,
+      "category": "Harry Potter",
+      "description": "Il Cappello Parlante di Hogwarts, che assegna le case ai nuovi studenti."
+    },
+    {
+      "id": 33,
+      "image": "oggetto_harrypotter.jpg",
+      "name": "Pietra Filosofale",
+      "price": 1000,
+      "category": "Harry Potter",
+      "description": "La leggendaria Pietra Filosofale, capace di conferire l'immortalità a chi la possiede."
+    },
+{
+      "id": 34,
+      "image": "oggetto_harrypotter.jpg",
+      "name": "Boccino d'Oro",
+      "price": 150,
+      "category": "Harry Potter",
+      "description": "Il Boccino d'Oro, usato nel gioco del Quidditch come la palla più veloce e difficile da catturare."
+    },
+{
+      "id": 35,
+      "image": "oggetto_harrypotter.jpg",
+      "name": "Giratempo",
+      "price": 800,
+      "category": "Harry Potter",
+      "description": "Il Giratempo di Hermione Granger, capace di viaggiare nel tempo e modificare gli eventi passati."
+    },
+{
+      "id": 36,
+      "image": "oggetto_harrypotter.jpg",
+      "name": "Bacchetta di Albus Silente",
+      "price": 900,
+      "category": "Harry Potter",
+      "description": "La bacchetta di Albus Silente, potente e saggia, capace di lanciare incantesimi straordinari."
+    },
+{
+      "id": 37,
+      "image": "oggetto_harrypotter.jpg",
+      "name": "Uovo d'Oro",
+      "price": 300,
+      "category": "Harry Potter",
+      "description": "L'Uovo d'Oro, usato nei tornei di Quidditch come premio per chi cattura il Boccino d'Oro."
+    },
+{
+      "id": 38,
+      "image": "oggetto_harrypotter.jpg",
+      "name": "Diario di Tom Riddle",
+      "price": 500,
+      "category": "Harry Potter",
+      "description": "Il Diario di Tom Riddle, un Horcrux che contiene la memoria e la malvagità del giovane Voldemort, usato per comunicare con il suo possessore."
+    },
+{
+  "id": 39,
+  "image": "mantello_invisibilita_harrypotter.jpg",
+  "name": "Mantello dell'Invisibilità",
+  "price": 3000,
+  "category": "Harry Potter",
+  "description": "Il Mantello dell'Invisibilità, un antico artefatto magico appartenuto alla famiglia Potter, capace di rendere invisibile il suo possessore quando indossato."
+},
+{
+  "id": 40,
+  "image": "bacchetta_voldemort.jpg",
+  "name": "Bacchetta di Voldemort",
+  "price": 2800,
+  "category": "Harry Potter",
+  "description": "La Bacchetta di Voldemort, un'antica bacchetta magica posseduta dal Signore Oscuro stesso, conosciuto per la sua potenza e malvagità straordinarie."
+},
+ {
+      "id": 41,
+      "image": "oggetto_lotr.jpg",
+      "name": "Spada di Aragorn",
+      "price": 800,
+      "category": "Il Signore degli Anelli",
+      "description": "La spada di Aragorn, forgiata per la sua discendenza reale e usata per combattere il Male."
+    },
+{
+      "id": 42,
+      "image": "oggetto_lotr.jpg",
+      "name": "Anello Unico",
+      "price": 1500,
+      "category": "Il Signore degli Anelli",
+      "description": "L'Anello Unico, creato da Sauron per dominare gli altri Anelli del Potere e governare la Terra di Mezzo."
+    },
+ {
+      "id": 43,
+      "image": "mantello_lotr.jpg",
+      "name": "Corona di Gondor",
+      "price": 1900,
+      "category": "Il Signore degli Anelli",
+      "description": "La Corona di Gondor, simbolo di autorità e sovranità dei Re di Gondor, indossata durante le cerimonie e le battaglie."
+    },
+{
+    "id": 44,
+    "image": "https://example.com/bastone1.jpg",
+    "name": "Bastone di Gandalf",
+    "price": 129.99,
+    "category": "Il Signore degli Anelli",
+    "description": "Il bastone di Gandalf il Grigio, inciso con antichi incantesimi e usato per difendere la Terra di Mezzo dalle forze del male."
+  },
+{
+  "id": 45,
+  "image": "arco_legolas.jpg",
+  "name": "Arco di Legolas",
+  "price": 2500,
+  "category": "Il Signore degli Anelli",
+  "description": "L'Arco di Legolas, un arco elfico fatto di legno di mallorn e adornato con motivi intricati, utilizzato dal valoroso elfo Legolas nelle sue gesta eroiche durante la guerra dell'Anello."
+},
+{
+  "id": 46,
+  "image": "cappello_gandalf.jpg",
+  "name": "Cappello di Gandalf",
+  "price": 2700,
+  "category": "Il Signore degli Anelli",
+  "description": "Il Cappello di Gandalf, un'iconica copertura indossata dal potente mago Gandalf il Grigio, con un ampio bordo e un punto conico, simbolo del suo potere e saggezza."
+},
+ {
+      "id": 47,
+      "image": "oggetto_lotr.jpg",
+      "name": "Elmo di Sauron",
+      "price": 1200,
+      "category": "Il Signore degli Anelli",
+      "description": "L'Elmo di Sauron, che incute terrore in tutti coloro che lo vedono e simbolo del suo potere dominante."
+    },
+{
+      "id": 48,
+      "image": "oggetto_lotr.jpg",
+      "name": "Nenya",
+      "price": 800,
+      "category": "Il Signore degli Anelli",
+      "description": "Nenya, l'Anello dell'Acqua, uno dei tre Anelli del Potere usati dagli elfi per proteggere le loro terre dagli intrusi."
+    },
+{
+      "id": 49,
+      "image": "mantello_lotr.jpg",
+      "name": "Corno di Gondor",
+      "price": 900,
+      "category": "Il Signore degli Anelli",
+      "description": "Il Corno di Gondor, usato come segnale di richiamo e simbolo di autorità dai Re di Gondor."
+    },
+{
+  "id": 50,
+  "image": "ascia_gimli.jpg",
+  "name": "Ascia di Gimli",
+  "price": 2600,
+  "category": "Il Signore degli Anelli",
+  "description": "L'Ascia di Gimli, un'arma da guerra affilata e robusta, utilizzata dal valoroso nano Gimli durante la sua avventura per distruggere l'Anello Unico e combattere contro le forze del Male."
+}
+]
 }
