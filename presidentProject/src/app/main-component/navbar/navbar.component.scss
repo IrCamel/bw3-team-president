@@ -1,12 +1,26 @@
 .mainNav{
   background-color: #013357;
+  height: 5rem;
+  border-bottom: 1px solid yellow;
 }
-
+.brand{
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+}
 .font{
   color: white;
+  font-weight: bold;
 }
 .font:hover{
   color: #EBCB00;
   // transition: 0.2s;
+}
+.dropDiv{
+  background-color: #013357;
+  border: 1px solid yellow;
+}
+.collapse{
+  z-index: 1;
 }
 

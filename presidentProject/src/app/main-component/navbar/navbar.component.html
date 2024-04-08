@@ -1,20 +1,42 @@
-<nav class="navbar navbar-expand-sm mainNav">
-  <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
+<nav class="navbar navbar-expand-lg mainNav">
+	<div class="container-fluid">
+		<a class="navbar-brand brand" routerLink="'.'">NERD-VERSE</a>
+
+		<button class="navbar-toggler" type="button" (click)="isMenuCollapsed = !isMenuCollapsed">&#9776;</button>
+
+		<div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse">
+			<ul class="navbar-nav">
+				<li class="nav-item active">
+					<a class="nav-link font" routerLink="/" (click)="isMenuCollapsed = true">Home</a>
+				</li>
+				<li class="nav-item">
+          <a class="nav-link font" routerLink="'.'" (click)="isMenuCollapsed = true">About</a>
+				</li>
         <li class="nav-item">
-          <a class="nav-link fw-bold font" aria-current="page" href="#">Home</a>
-        </li>
+          <a class="nav-link font" routerLink="'.'" (click)="isMenuCollapsed = true">Contact Us</a>
+				</li>
         <li class="nav-item">
-          <a class="nav-link fw-bold font" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link fw-bold font" href="#">Pricing</a>
-        </li>
-      </ul>
-    </div>
-  </div>
+          <div class="row">
+            <div class="col">
+              <div ngbDropdown class="d-inline-block">
+                <button type="button" class="btn nav-link border-0 font" id="dropdownBasic1" ngbDropdownToggle>
+                Categories
+              </button>
+              <div ngbDropdownMenu aria-labelledby="dropdownBasic1" class="dropDiv">
+                <button class="font" routerLink="categories/marvel" ngbDropdownItem>Marvel</button>
+                <button class="font" routerLink="categories/dc"ngbDropdownItem>DC</button>
+                <button class="font" routerLink="categories/star-wars"ngbDropdownItem>Star Wars</button>
+                <button class="font" routerLink="categories/harry-potter"ngbDropdownItem>Harry Potter</button>
+                <button class="font" routerLink="categories/signore-degli-anelli"ngbDropdownItem>Il Signore Degli Anelli</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link font" [routerLink]="'.'" (click)="isMenuCollapsed = true">Cart</a>
+      </li>
+    </ul>
+		</div>
+	</div>
 </nav>
