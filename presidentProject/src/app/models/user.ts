@@ -1,2 +1,10 @@
-export interface User {
+export interface iUser {
+  id:number,
+  firstName:string,
+  lastName: string,
+  address: string,
+  phone: number,
+  email:string
+  password?:string
+  admin: boolean
 }

@@ -1,5 +1,15 @@
 {
-  "users" : [],
+  "users": [
+    {
+      "email": "luca@mail.it",
+      "password": "$2a$10$8ys3qzz.2ZEbvcTXCF3KD.A3qAyBjW3hz9cFRTuTPRyLZvn7aWIba",
+      "firstName": "Luca",
+      "lastName": "Di Pietro",
+      "address": "Via Pippo 1",
+      "phone": 392333222,
+      "id": 1
+    }
+  ],
   "product": [
     {
       "id": 1,
