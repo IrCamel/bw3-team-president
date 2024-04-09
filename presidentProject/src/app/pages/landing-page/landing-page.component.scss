@@ -15,10 +15,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 150px;
+  position: sticky;
   .imgSize{
     max-width: 400px;
-    // position: fixed;
-    transition-timing-function: ease-in;
-    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    max-height: 400px;
+    aspect-ratio: auto;
+    position: absolute;
   }
+}
+.btn{
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.bottone{
+  background-color: #013357;
 }

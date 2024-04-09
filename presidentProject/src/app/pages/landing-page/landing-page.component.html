@@ -1,5 +1,5 @@
 <div class="container my-5">
-  <ngb-carousel class="my-5 settCar d-flex align-items-center justify-content-center"
+  <ngb-carousel class="mb-5 settCar d-flex align-items-center justify-content-center"
   #carousel
   [interval]="2500"
   [pauseOnHover]="pauseOnHover"
@@ -8,10 +8,10 @@
   >
   @for (product of productArr; track productArr; let i = $index) {
       <ng-template ngbSlide >
-        <div class="carousel-caption text-bg-primary">
+        <div class="carousel-caption bottone border border-warning">
           <h3>{{product.name}}</h3>
         </div>
-          <div class="picsum-img-wrapper text-center divSize">
+          <div class="picsum-img-wrapper text-center divSize btn">
             <img class="imgSize" src="../../../assets/{{product.image}}"/>
           </div>
       </ng-template>
