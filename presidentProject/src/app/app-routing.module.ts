@@ -8,9 +8,15 @@ const routes: Routes = [
   { path: 'auth',
   loadChildren: () => import('./pages/auth/auth.module').then(m => m.AuthModule)
   },
-  { path: 'productDetails', loadChildren: () => import('./pages/product-details/product-details.module').then(m => m.ProductDetailsModule) },
-  { path: 'categories', loadChildren: () => import('./pages/categories/categories.module').then(m => m.CategoriesModule) },
-  { path: 'userCart', loadChildren: () => import('./pages/user-cart/user-cart.module').then(m => m.UserCartModule) },
+  { path: 'productDetails',
+  loadChildren: () => import('./pages/product-details/product-details.module').then(m => m.ProductDetailsModule)
+  },
+  { path: 'categories',
+  loadChildren: () => import('./pages/categories/categories.module').then(m => m.CategoriesModule)
+  },
+  { path: 'userCart',
+  loadChildren: () => import('./pages/user-cart/user-cart.module').then(m => m.UserCartModule)
+  },
 ];
 
 @NgModule({

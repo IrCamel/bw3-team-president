@@ -4,6 +4,8 @@ import { CommonModule } from '@angular/common';
 import { LandingPageRoutingModule } from './landing-page-routing.module';
 import { LandingPageComponent } from './landing-page.component';
 import { ProductCardComponent } from './product-card/product-card.component';
+import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -13,7 +15,9 @@ import { ProductCardComponent } from './product-card/product-card.component';
   ],
   imports: [
     CommonModule,
-    LandingPageRoutingModule
+    LandingPageRoutingModule,
+    NgbCarouselModule,
+    FormsModule
   ]
 })
 export class LandingPageModule { }

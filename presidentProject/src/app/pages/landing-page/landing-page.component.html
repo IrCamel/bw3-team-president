@@ -1,4 +1,24 @@
-<div class="container py-4">
+<div class="container my-5">
+  <ngb-carousel class="my-5 settCar d-flex align-items-center justify-content-center"
+  #carousel
+  [interval]="2500"
+  [pauseOnHover]="pauseOnHover"
+  [pauseOnFocus]="pauseOnFocus"
+  (slide)="onSlide($event)"
+  >
+  @for (product of productArr; track productArr; let i = $index) {
+      <ng-template ngbSlide >
+        <div class="carousel-caption text-bg-primary">
+          <h3>{{product.name}}</h3>
+        </div>
+          <div class="picsum-img-wrapper text-center divSize">
+            <img class="imgSize" src="../../../assets/{{product.image}}"/>
+          </div>
+      </ng-template>
+  }
+  </ngb-carousel>
+
+
   <div  class="row g-5 px-0 mx-0">
     <div *ngFor="let product of productArr" class="col-12 col-sm-6 col-md-4 col-lg-3">
       <app-product-card [product]="product"></app-product-card>

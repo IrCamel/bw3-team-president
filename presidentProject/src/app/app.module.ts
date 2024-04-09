@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbCarouselModule, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NavbarComponent } from './main-component/navbar/navbar.component';
 import { FooterComponent } from './main-component/footer/footer.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
@@ -18,7 +18,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
