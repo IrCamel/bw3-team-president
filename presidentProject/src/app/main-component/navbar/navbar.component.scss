@@ -1,20 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;500&display=swap');
+
+
 .mainNav{
   background-color: #013357;
   height: 5rem;
   border-bottom: 1px solid yellow;
+  font-family: JetBrains Mono, monospace;
 }
 .brand{
   color: white;
   font-weight: bold;
   font-size: 40px;
 }
+
+  .logo{
+    width: 170px;
+    margin-top: 10px;
+  }
+
+  @media screen and (max-width: 991px){
+    .logo{
+      display: none;
+    }
+  }
+
+  .card-body{
+    background-color:#013357;
+    border: none
+  }
+
 .font{
-  color: white;
+  color: #ce1800;
   font-weight: bold;
 }
 .font:hover{
   color: #EBCB00;
-  // transition: 0.2s;
+  transition: 0.1s;
+  transform:scale(1.02);
+  background-color: transparent;
 }
 .dropDiv{
   background-color: #013357;
@@ -23,4 +46,5 @@
 .collapse{
   z-index: 1;
 }
+
 
