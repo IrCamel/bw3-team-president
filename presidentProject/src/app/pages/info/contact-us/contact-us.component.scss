@@ -1,28 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;500&display=swap');
-
-.divSett {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.textSett {
-  margin-top: 30px;
-  font-family: JetBrains Mono, monospace;
-  font-weight: bold;
-  background-color: #d9a002;
-  border: 2px solid #013357;
-  border-radius: 20px;
-  color: #013357;
-  width: fit-content;
-  padding: 10px;
-}
-
-.main-container {
+.main-container{
   height: 85vh;
   display: flex;
   align-items: center;
+  margin: 5rem 0 3rem 0;
 }
 
 .container {
@@ -50,14 +30,13 @@
   color: #FF0;
   font-weight: 900;
   font-size: 1.5em;
-  font-family: JetBrains Mono, monospace;
+
 }
 
 .sub_title {
   font-weight: 600;
   margin: 5px 0;
   color: #FF0;
-  font-family: JetBrains Mono, monospace;
 }
 
 .form_group {
@@ -77,8 +56,7 @@
   font-size: 15px;
 }
 
-.form_style:focus,
-.btn:focus {
+.form_style:focus, .btn:focus {
   transform: translateY(4px);
   box-shadow: 1px 2px 0px 0px #E99F4C;
 }
@@ -92,7 +70,6 @@
   border-radius: 10px;
   font-weight: 800;
   box-shadow: 3px 3px 0px 0px rgb(199, 199, 23);
-  font-family: JetBrains Mono, monospace;
 }
 
 .btn:hover {
@@ -105,6 +82,6 @@
   padding: 5px;
 }
 
-p {
+p{
   color: #FF0
 }
