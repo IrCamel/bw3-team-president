@@ -45,6 +45,7 @@ export class AuthService {
   loginUrl:string = environment.loginUrl
 
   register(newUser:Partial<iUser>):Observable<AccessData>{
+    newUser.cart = []
     return this.http.post<AccessData>(this.registerUrl,newUser)
   }
 

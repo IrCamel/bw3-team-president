@@ -1,3 +1,5 @@
+import { iProduct } from "./product"
+
 export interface iUser {
   id:number,
   firstName:string,
@@ -7,4 +9,5 @@ export interface iUser {
   email:string
   password?:string
   admin: boolean
+  cart: iProduct[]
 }

@@ -8,6 +8,51 @@
       "address": "Via Pippo 1",
       "phone": 392333222,
       "id": 1
+    },
+    {
+      "email": "bello@gmail.it",
+      "password": "$2a$10$vt25cKIQ3n/x4ksD3ShGCe8f3L8aroFFsF2.xtvoklBlGBHRkFuQq",
+      "firstName": "Dario",
+      "lastName": "Cantini",
+      "address": "ciao 21",
+      "phone": 123,
+      "id": 2
+    },
+    {
+      "email": "ciaone@gmail.com",
+      "password": "$2a$10$7nmUf2dK1RogSE8l1fLqnOT8s3pec8FPYmeVBpvfl/pgUP8cYLk66",
+      "id": 3
+    },
+    {
+      "email": "darione@gmail.com",
+      "password": "$2a$10$KHARGVVQGcgxB1JaWpPByuyOr2LblNP2CtwMjwnzXrJxHZ1rEB1CK",
+      "cart": [
+        {
+          "id": 1,
+          "image": "mjolnir-removebg-preview.png",
+          "name": "Mjolnir",
+          "price": 500,
+          "category": "Marvel",
+          "description": "La potente mazza di Thor, incantata da magia e capace di controllare il tuono."
+        },
+        {
+          "id": 7,
+          "image": "tesseract-removebg-preview.png",
+          "name": "Tesseract",
+          "price": 1800,
+          "category": "Marvel",
+          "description": "Il Tesseract, noto anche come Cubo Cosmico, un artefatto contenente il Potere dello Spazio e capace di aprire portali attraverso l'universo."
+        },
+        {
+          "id": 5,
+          "image": "agamotto_amuleto-removebg-preview.png",
+          "name": "Amuleto di Agamotto",
+          "price": 1400,
+          "category": "Marvel",
+          "description": "L'Amuleto di Agamotto, un artefatto mistico usato da Dr. Strange per manipolare il tempo e l'illusione."
+        }
+      ],
+      "id": 4
     }
   ],
   "product": [
@@ -231,7 +276,8 @@
       "image": "anello_flash-removebg-preview.png",
       "name": "Anello della Velocità",
       "price": 2200,
-      "category": "DC"
+      "category": "DC",
+      "description": "L'Anello della Velocità, un dispositivo utilizzato dal supereroe Flash per controllare la sua velocità sovrumana e viaggiare attraverso il tempo."
     },
     {
       "id": 29,
@@ -342,7 +388,8 @@
       "image": "anello_unico-removebg-preview.png",
       "name": "Anello Unico",
       "price": 1500,
-      "category": "Il Signore degli Anelli"
+      "category": "Il Signore degli Anelli",
+      "description": "L'Anello Unico, creato da Sauron per dominare gli altri Anelli del Potere e governare la Terra di Mezzo."
     },
     {
       "id": 43,

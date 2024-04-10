@@ -20,7 +20,7 @@ export class LoginComponent {
     signIn(){
       this.authSvc.login(this.loginData)
       .subscribe(data => {
-        this.router.navigate(['/userCart'])
+        this.router.navigate([''])
       })
     }
 

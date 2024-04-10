@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
 import { RouterLink } from '@angular/router';
+import { AuthService } from '../../pages/auth/auth.service';
 
 @Component({
   selector: 'app-navbar',
@@ -8,5 +9,19 @@ import { RouterLink } from '@angular/router';
   styleUrl: './navbar.component.scss',
 })
 export class NavbarComponent {
-	isMenuCollapsed = true;
+    isMenuCollapsed = true;
+  show: boolean = false;
+  isUserLoggedIn: boolean = false;
+
+  constructor(private authSvc: AuthService) { }
+
+  ngOnInit() {
+    this.authSvc.isLoggedIn$.subscribe(data => {
+      this.isUserLoggedIn = data;
+    })
+  }
+
+  logout() {
+    this.authSvc.logout()
+  }
 }
