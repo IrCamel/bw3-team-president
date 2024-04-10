@@ -53,6 +53,69 @@
         }
       ],
       "id": 4
+    },
+    {
+      "email": "glauco@ilcaneperfetto",
+      "password": "$2a$10$OwUp67EETpRHIGFvVvlJU.mMukYbnjU8vhMXDalRoNhizAgr2jgB6",
+      "cart": [
+        {
+          "id": 6,
+          "image": "guanto_thanos-removebg-preview.png",
+          "name": "Guanto del Potere",
+          "price": 2000,
+          "category": "Marvel",
+          "description": "Il Guanto del Potere, un artefatto forgiato da Thanos e usato per contenere le sei Gemme dell'Infinito, conferendo potere assoluto a chi lo indossa."
+        },
+        {
+          "id": 22,
+          "image": "elmo_flash-removebg-preview.png",
+          "name": "Elmo di Flash",
+          "price": 350,
+          "category": "DC",
+          "description": "L'elmo di Flash, indossato dal velocista scarlatto mentre attraversa il tempo e lo spazio."
+        },
+        {
+          "id": 22,
+          "image": "elmo_flash-removebg-preview.png",
+          "name": "Elmo di Flash",
+          "price": 350,
+          "category": "DC",
+          "description": "L'elmo di Flash, indossato dal velocista scarlatto mentre attraversa il tempo e lo spazio."
+        },
+        {
+          "id": 22,
+          "image": "elmo_flash-removebg-preview.png",
+          "name": "Elmo di Flash",
+          "price": 350,
+          "category": "DC",
+          "description": "L'elmo di Flash, indossato dal velocista scarlatto mentre attraversa il tempo e lo spazio."
+        },
+        {
+          "id": 22,
+          "image": "elmo_flash-removebg-preview.png",
+          "name": "Elmo di Flash",
+          "price": 350,
+          "category": "DC",
+          "description": "L'elmo di Flash, indossato dal velocista scarlatto mentre attraversa il tempo e lo spazio."
+        },
+        {
+          "id": 22,
+          "image": "elmo_flash-removebg-preview.png",
+          "name": "Elmo di Flash",
+          "price": 350,
+          "category": "DC",
+          "description": "L'elmo di Flash, indossato dal velocista scarlatto mentre attraversa il tempo e lo spazio."
+        },
+        {
+          "id": 47,
+          "image": "elmo_di_sauron-removebg-preview.png",
+          "name": "Elmo di Sauron",
+          "price": 1200,
+          "category": "Il Signore degli Anelli",
+          "description": "L'Elmo di Sauron, che incute terrore in tutti coloro che lo vedono e simbolo del suo potere dominante."
+        }
+      ],
+      "id": 5
     }
   ],
   "product": [

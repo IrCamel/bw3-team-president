@@ -274,3 +274,27 @@ h1{
   color: white;
   text-shadow: 0 0 10px yellow;
 }
+.infoBtn {
+  width: 50px;
+  height: 40px;
+  border-radius: 12px;
+  border: none;
+  background-color: rgb(43, 216, 20);
+}
+.infoBtn:hover {
+  transform: scale(1.2);
+  transition: 0.2s
+}
+.infoText {
+  font-size: 1.04em;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2px;
+}
+.cardBtns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+}
