@@ -1,1 +1,17 @@
-<p>product-details works!</p>
+<div class="container">
+  <ng-container *ngIf="productArr.length > 0">
+    <div *ngFor="let prod of productArr">
+      <h2>{{ prod.name }}</h2>
+      <div class="details">
+        <div>
+          <img [src]="'../../../assets/' + prod.image" alt="{{ prod.name }}">
+        </div>
+        <div>
+          <p><strong>Price:</strong> {{ prod.price | currency: "EUR" }}</p>
+          <p><strong>Category:</strong> {{ prod.category }}</p>
+          <p><strong>Description:</strong> {{ prod.description }}</p>
+        </div>
+      </div>
+    </div>
+  </ng-container>
+</div>
