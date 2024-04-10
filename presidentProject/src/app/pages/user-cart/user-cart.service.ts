@@ -35,6 +35,8 @@ export class UserCartService {
     }
     this.user.cart.push(product);
     this.editUserData(this.user).subscribe(newUser => {
+      console.log(newUser);
+
       this.authSvc.authSubject.next(newUser);
     });
   }

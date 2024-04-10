@@ -53,6 +53,100 @@
         }
       ],
       "id": 4
+    },
+    {
+      "email": "prova@mail.it",
+      "password": "$2a$10$X2yxgHXzae4ZWvYtdl20ZeWHV7z86DvzPIfOOP3IYxCD34ytV9g2y",
+      "firstName": "Luca",
+      "lastName": "Di Pietro",
+      "address": "VIA BIRAGHI 21",
+      "phone": 3922448525,
+      "cart": [
+        {
+          "id": 1,
+          "image": "mjolnir-removebg-preview.png",
+          "name": "Mjolnir",
+          "price": 500,
+          "category": "Marvel",
+          "description": "La potente mazza di Thor, incantata da magia e capace di controllare il tuono."
+        }
+      ],
+      "id": 5
+    },
+    {
+      "email": "user1@mail.it",
+      "password": "$2a$10$w69onSZ/rpFcNaas9xI1oucwyEJstv00qbeVX31hiyF.jb44Tphfy",
+      "firstName": "paolo",
+      "lastName": "mauro",
+      "address": "Officia et ex quasi ",
+      "phone": 45,
+      "cart": [
+        {
+          "id": 1,
+          "image": "mjolnir-removebg-preview.png",
+          "name": "Mjolnir",
+          "price": 500,
+          "category": "Marvel",
+          "description": "La potente mazza di Thor, incantata da magia e capace di controllare il tuono."
+        },
+        {
+          "id": 2,
+          "image": "scudo_cap-removebg-preview.png",
+          "name": "Scudo di Captain America",
+          "price": 350,
+          "category": "Marvel",
+          "description": "L'iconico scudo del Capitano America, realizzato in vibranio e resistente a qualsiasi attacco."
+        },
+        {
+          "id": 6,
+          "image": "guanto_thanos-removebg-preview.png",
+          "name": "Guanto del Potere",
+          "price": 2000,
+          "category": "Marvel",
+          "description": "Il Guanto del Potere, un artefatto forgiato da Thanos e usato per contenere le sei Gemme dell'Infinito, conferendo potere assoluto a chi lo indossa."
+        },
+        {
+          "id": 11,
+          "image": "spada_luke_skywalker-removebg-preview.png",
+          "name": "Lightsaber di Luke Skywalker",
+          "price": 700,
+          "category": "Star Wars",
+          "description": "La spada laser di Luke Skywalker, simbolo della Forza e usata per combattere il Lato Oscuro."
+        },
+        {
+          "id": 19,
+          "image": "casco_x_wing-removebg-preview.png",
+          "name": "Casco da Pilota X-wing",
+          "price": 1800,
+          "category": "Star Wars",
+          "description": "Il Casco da Pilota X-wing, indossato dai piloti dell'Alleanza Ribelle durante le missioni di combattimento a bordo degli X-wing, dotato di visore e comunicatore integrati."
+        },
+        {
+          "id": 1,
+          "image": "mjolnir-removebg-preview.png",
+          "name": "Mjolnir",
+          "price": 500,
+          "category": "Marvel",
+          "description": "La potente mazza di Thor, incantata da magia e capace di controllare il tuono."
+        },
+        {
+          "id": 1,
+          "image": "mjolnir-removebg-preview.png",
+          "name": "Mjolnir",
+          "price": 500,
+          "category": "Marvel",
+          "description": "La potente mazza di Thor, incantata da magia e capace di controllare il tuono."
+        },
+        {
+          "id": 1,
+          "image": "mjolnir-removebg-preview.png",
+          "name": "Mjolnir",
+          "price": 500,
+          "category": "Marvel",
+          "description": "La potente mazza di Thor, incantata da magia e capace di controllare il tuono."
+        }
+      ],
+      "id": 6
     }
   ],
   "product": [
