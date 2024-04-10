@@ -16,7 +16,10 @@ export class UserCartComponent {
       if(user){
         this.firstName = user.firstName
         this.user = user
-        userSvc.getUser(user).subscribe(user => this.cart = user.cart)
+        userSvc.getUser(user).subscribe(user => {
+          this.cart = user.cart
+          this.cart.forEach(el => this.total += el.price)
+        })
       }
     })
   }
@@ -24,6 +27,8 @@ export class UserCartComponent {
   cart!: iProduct[]
   user!: iUser
   firstName!: string
+
+  total: number = 0
 
   editUserData(user: Partial<iUser>){
     console.log(user);

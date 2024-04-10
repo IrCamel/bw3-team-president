@@ -38,6 +38,13 @@
       <div *ngFor="let product of cart" class="col-12">
         <app-cart-element [product]="product"></app-cart-element>
       </div>
+      <div class="d-flex justify-content-between align-items-center total">
+        <h4>Totale: </h4>
+        <div class="d-flex align-items-center">
+          <h4>{{total | currency : 'EUR'}}</h4>
+          <button class="btn-total">Procedi all'ordine</button>
+        </div>
+      </div>
     </div>
   </div>
 </div>
