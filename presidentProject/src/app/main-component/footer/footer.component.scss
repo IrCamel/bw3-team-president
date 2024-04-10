@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;500&display=swap');
+
 .footerSett{
-  color: white;
+  color: #013357;
   width: fit-content;
   cursor: pointer;
+  font-family: JetBrains Mono, monospace;
 }
 
 .footerSett:hover{

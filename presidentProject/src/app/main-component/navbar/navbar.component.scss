@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;500&display=swap');
+
+
 .mainNav{
   background-color: #013357;
   height: 5rem;
   border-bottom: 1px solid yellow;
+  font-family: JetBrains Mono, monospace;
 }
 .brand{
   color: white;
@@ -22,12 +26,13 @@
 
 
 .font{
-  color: white;
+  color: #871101;
   font-weight: bold;
 }
 .font:hover{
   color: #EBCB00;
-  // transition: 0.2s;
+  transform: scale(1.1);
+  transition: 0.1s;
 }
 .dropDiv{
   background-color: #013357;

@@ -9,11 +9,12 @@
   text-align: center;
   margin-top: 50px;
   margin-bottom: 80px;
-  background-color: #EBCB00;
+  background-color: #d9a002;
   border: 2px solid #013357;
   border-radius: 20px;
   width: fit-content;
   cursor: pointer;
+  padding: 10px;
 }
 
 .title2{
@@ -23,6 +24,10 @@
   font-size: 30px;
   text-align: center;
   margin-bottom: 60px;
+  background-color: #d9a002;
+  border: 2px solid #013357;
+  border-radius: 20px;
+  padding: 10px;
 }
 
 .title:hover{
@@ -310,5 +315,5 @@
 }
 
 .spanSett{
-  color: #EBCB00;
+  color: #d9a002;
 }
