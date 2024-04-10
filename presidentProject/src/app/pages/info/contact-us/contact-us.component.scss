@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;500&display=swap');
 
-.divSett{
+.divSett {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.textSett{
+.textSett {
   margin-top: 30px;
-  font-family: JetBrains Mono;
+  font-family: JetBrains Mono, monospace;
   font-weight: bold;
   background-color: #d9a002;
   border: 2px solid #013357;
@@ -19,125 +19,92 @@
   padding: 10px;
 }
 
+.main-container {
+  height: 85vh;
+  display: flex;
+  align-items: center;
+}
+
 .container {
-  width: 350px;
-  height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
-  border-radius: 3px;
-  border: 2px solid #d9a002;
-  background: linear-gradient(to right, #013357, #013357);
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-.container form .descr {
-  font-size: 20px;
-  font-weight: 500;
-  color: #e8e8e8;
-  margin-bottom: 25px;
-  margin-top: 25px;
+  flex-direction: column;
   text-align: center;
 }
 
-.form {
+.form_area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #033357;
+  height: auto;
+  width: auto;
+  border: 2px solid #012948;
+  border-radius: 20px;
+  box-shadow: 3px 4px 0px 1px #FF0;
+}
+
+.title {
+  color: #FF0;
+  font-weight: 900;
+  font-size: 1.5em;
+  font-family: JetBrains Mono, monospace;
+}
+
+.sub_title {
+  font-weight: 600;
+  margin: 5px 0;
+  color: #FF0;
+  font-family: JetBrains Mono, monospace;
+}
+
+.form_group {
   display: flex;
   flex-direction: column;
+  align-items: baseline;
+  margin: 10px;
 }
 
-.input, textarea {
-  margin: 1em 0 1em 0;
-  width: 300px;
-  position: relative;
-  font-family: JetBrains Mono, monospace;
-}
-
-.input input, textarea {
-  font-size: 100%;
-  padding: 0.7em;
+.form_style {
   outline: none;
-  color: #e8e8e8;
-  border: none;
-  border-bottom: 2px solid #e8e8e8;
-  background: transparent;
-  border-radius: none;
-  width: 100%;
-  resize: none;
-  font-family: JetBrains Mono, monospace;
-}
-
-.input label {
-  font-size: 100%;
-  position: absolute;
-  left: 0;
-  color: #e8e8e8;
-  padding: 0.7em;
-  margin-left: 0.1em;
-  pointer-events: none;
-  transition: all 0.5s ease;
-  text-transform: uppercase;
-  font-family: JetBrains Mono, monospace;
-}
-
-.input :is(input:focus, input:valid)~label {
-  transform: translateY(-50%) scale(.9);
-  margin: 0em;
-  padding: 0.4em;
-  background: transparent;
-}
-
-.input textarea:focus ~ label,
-.input textarea:valid ~ label {
-  transform: translateY(-50%) scale(.9);
-  margin: 0em;
-  padding: 0.4em;
-  background: transparent;
-}
-
-.inputGroup :is(input:focus, input:valid) {
-  border-color: rgb(37, 37, 211);
-}
-
-.form button {
-  color: #e8e8e8;
+  border: 2px solid #012948;
+  box-shadow: 3px 4px 0px 1px #FF0;
+  width: 290px;
+  padding: 12px 10px;
+  border-radius: 4px;
   font-size: 15px;
-  align-self: flex-start;
-  padding: 0.6em;
-  border: none;
-  cursor: pointer;
-  margin-bottom: 50px;
-  background: transparent;
-  transition: all 0.3s ease-in-out;
-  position: relative;
-  overflow: hidden;
 }
 
-.form button:before {
-  content: "";
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #e8e8e8;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
+.form_style:focus,
+.btn:focus {
+  transform: translateY(4px);
+  box-shadow: 1px 2px 0px 0px #E99F4C;
 }
 
-.form button:hover:before {
-  opacity: 0.2;
-}
-
-.form button:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-}
-
-.descr{
+.btn {
+  padding: 15px;
+  margin: 25px 0px;
+  width: 290px;
+  font-size: 15px;
+  background: #ff0;
+  border-radius: 10px;
+  font-weight: 800;
+  box-shadow: 3px 3px 0px 0px rgb(199, 199, 23);
   font-family: JetBrains Mono, monospace;
 }
 
-.button{
-  font-family: JetBrains Mono, monospace;
+.btn:hover {
+  opacity: .9;
+}
+
+.link {
+  font-weight: 800;
+  color: #ff0;
+  padding: 5px;
+}
+
+p {
+  color: #FF0
 }

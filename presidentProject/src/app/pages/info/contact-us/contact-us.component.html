@@ -5,23 +5,30 @@
 <p class="textSett">(Tipo se hai ordinato il mantello dell'invisibilità e non trovi nulla nel pacco)</p>
 </div>
 
-<div class="container my-5">
-  <form class="form">
-    <div class="descr">Contact us</div>
-    <div class="input">
-        <input required="" autocomplete="off" type="text">
-        <label for="name">Name</label>
-    </div>
-
-    <div class="input">
-        <input required="" autocomplete="off" name="email" type="text">
-        <label for="email">E-mail</label>
-    </div>
-
-    <div class="input">
-        <textarea required="" cols="30" rows="1" id="message"></textarea>
-        <label for="message">Message</label>
-    </div>
-    <button class="button">Send message →</button>
-  </form>
-</div>
+<div class="container">
+  <div class="main-container">
+      <div class="form_area p-5">
+        <p class="title">CONTATTACI</p>
+        <form>
+          <div class="form_group">
+            <label class="sub_title" for="firstName">Nome</label>
+            <input name="firstName" placeholder="Inserisci il tuo nome" class="form_style" type="text" />
+          </div>
+          <div class="form_group">
+            <label class="sub_title" for="address">Indirizzo di spedizione</label>
+            <input name="address" placeholder="Inserisci il tuo indirizzo" class="form_style" type="text" />
+          </div>
+          <div class="form_group">
+            <label class="sub_title" for="phone">Numero di telefono</label>
+            <input name="phone" placeholder="Inserisci il tuo indirizzo" class="form_style" type="number" />
+          </div>
+          <div class="form_group">
+            <label class="sub_title" for="mail">Mail</label>
+            <input name="mail" placeholder="Inserisci la tua mail" class="form_style" type="email" />
+          </div>
+          <div>
+            <button class="btn">INVIA</button>
+          </div>
+        </form>
+      </div>
+  </div>
