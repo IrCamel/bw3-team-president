@@ -454,6 +454,22 @@
       "price": 2600,
       "category": "Il Signore degli Anelli",
       "description": "L'Ascia di Gimli, un'arma da guerra affilata e robusta, utilizzata dal valoroso nano Gimli durante la sua avventura per distruggere l'Anello Unico e combattere contro le forze del Male."
+    },
+    {
+      "image": "https://picsum.photos/200/300",
+      "name": "Ciaone",
+      "price": 4535,
+      "category": "Dc",
+      "description": "efdfdsafda",
+      "id": 51
+    },
+    {
+      "image": "https://picsum.photos/200/300",
+      "name": "Maschera di spiderman",
+      "price": 200,
+      "category": "Marvel",
+      "description": "La maschera di spiderman",
+      "id": 52
     }
   ]
 }
