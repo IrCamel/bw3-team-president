@@ -20,8 +20,26 @@
     },
     {
       "email": "ciaone@gmail.com",
-      "password": "$2a$10$7nmUf2dK1RogSE8l1fLqnOT8s3pec8FPYmeVBpvfl/pgUP8cYLk66",
-      "id": 3
+      "password": "$2a$10$J8kLZdy7NJ7qoyWM1Fruue8uXm4ToW5tEeuKkPBZ0mXcrTuYkKphO",
+      "id": 3,
+      "cart": [
+        {
+          "id": 1,
+          "image": "mjolnir-removebg-preview.png",
+          "name": "Mjolnir",
+          "price": 500,
+          "category": "Marvel",
+          "description": "La potente mazza di Thor, incantata da magia e capace di controllare il tuono."
+        },
+        {
+          "id": 5,
+          "image": "agamotto_amuleto-removebg-preview.png",
+          "name": "Amuleto di Agamotto",
+          "price": 1400,
+          "category": "Marvel",
+          "description": "L'Amuleto di Agamotto, un artefatto mistico usato da Dr. Strange per manipolare il tempo e l'illusione."
+        }
+      ]
     },
     {
       "email": "darione@gmail.com",

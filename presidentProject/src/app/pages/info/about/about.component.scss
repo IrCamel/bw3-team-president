@@ -1,3 +1,22 @@
+.divSett {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.textSett {
+  margin-top: 30px;
+  font-family: JetBrains Mono, monospace;
+  font-weight: bold;
+  background-color: #d9a002;
+  border: 2px solid #013357;
+  border-radius: 20px;
+  color: #013357;
+  width: fit-content;
+  padding: 10px;
+}
+
 .aboutDiv {
   border-radius: 20px;
   border: 1px solid #FFFF00;
