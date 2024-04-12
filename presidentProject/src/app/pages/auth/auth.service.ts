@@ -30,6 +30,7 @@ export class AuthService {
   //isLoggedIn$ = this.user$.pipe(map(user => Boolean(user)))
 
   syncIsLoggedIn:boolean = false;
+  isAdmin: boolean = false;
 
   constructor(
     private http:HttpClient,//per le chiamate http
@@ -46,12 +47,14 @@ export class AuthService {
 
   register(newUser:Partial<iUser>):Observable<AccessData>{
     newUser.cart = []
+    newUser.admin = true
     return this.http.post<AccessData>(this.registerUrl,newUser)
   }
 
   login(loginData:iLoginData):Observable<AccessData>{
     return this.http.post<AccessData>(this.loginUrl,loginData)
     .pipe(tap(data => {
+      this.isAdmin = data.user.admin
 
       this.authSubject.next(data.user)//comunico al subject che l'utente si è loggato
       localStorage.setItem('accessData', JSON.stringify(data))

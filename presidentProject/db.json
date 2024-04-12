@@ -20,26 +20,8 @@
     },
     {
       "email": "ciaone@gmail.com",
-      "password": "$2a$10$J8kLZdy7NJ7qoyWM1Fruue8uXm4ToW5tEeuKkPBZ0mXcrTuYkKphO",
-      "id": 3,
-      "cart": [
-        {
-          "id": 1,
-          "image": "mjolnir-removebg-preview.png",
-          "name": "Mjolnir",
-          "price": 500,
-          "category": "Marvel",
-          "description": "La potente mazza di Thor, incantata da magia e capace di controllare il tuono."
-        },
-        {
-          "id": 5,
-          "image": "agamotto_amuleto-removebg-preview.png",
-          "name": "Amuleto di Agamotto",
-          "price": 1400,
-          "category": "Marvel",
-          "description": "L'Amuleto di Agamotto, un artefatto mistico usato da Dr. Strange per manipolare il tempo e l'illusione."
-        }
-      ]
+      "password": "$2a$10$7nmUf2dK1RogSE8l1fLqnOT8s3pec8FPYmeVBpvfl/pgUP8cYLk66",
+      "id": 3
     },
     {
       "email": "darione@gmail.com",
@@ -71,6 +53,37 @@
         }
       ],
       "id": 4
+    },
+    {
+      "email": "syzaliwi@mailinator.com",
+      "password": "$2a$10$NdWvSjc7fFdzz/FqOa3RqexYyitmy59sV8CeWq.VbIIpfXr0KuXqy",
+      "firstName": "Deirdre",
+      "lastName": "Wise",
+      "address": "Id sed in numquam po",
+      "phone": 32,
+      "cart": [],
+      "id": 5
+    },
+    {
+      "email": "mozus@mailinator.com",
+      "password": "$2a$10$pMtovoS42PgDxYiQ6ibO.OtvrKvglReAkDKnJxdjRRi/MT.HlGHcK",
+      "firstName": "Elmo",
+      "lastName": "Waller",
+      "address": "Dolor illum volupta",
+      "phone": 57,
+      "cart": [],
+      "id": 6
+    },
+    {
+      "email": "rukadycyb@mailinator.com",
+      "password": "$2a$10$IsPPd8y1pxDT7675/YRee.3ecxxWi/flxWvMM.qzvWG3Ay0uEzZLC",
+      "firstName": "Ima",
+      "lastName": "Mcdowell",
+      "address": "Aut quidem nisi volu",
+      "phone": 97,
+      "cart": [],
+      "admin": true,
+      "id": 7
     }
   ],
   "product": [
@@ -472,22 +485,6 @@
       "price": 2600,
       "category": "Il Signore degli Anelli",
       "description": "L'Ascia di Gimli, un'arma da guerra affilata e robusta, utilizzata dal valoroso nano Gimli durante la sua avventura per distruggere l'Anello Unico e combattere contro le forze del Male."
-    },
-    {
-      "image": "https://picsum.photos/200/300",
-      "name": "Ciaone",
-      "price": 4535,
-      "category": "Dc",
-      "description": "efdfdsafda",
-      "id": 51
-    },
-    {
-      "image": "https://picsum.photos/200/300",
-      "name": "Maschera di spiderman",
-      "price": 200,
-      "category": "Marvel",
-      "description": "La maschera di spiderman",
-      "id": 52
     }
   ]
 }
