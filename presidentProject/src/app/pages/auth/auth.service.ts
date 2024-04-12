@@ -58,7 +58,7 @@ export class AuthService {
 
   register(newUser:Partial<iUser>):Observable<AccessData>{
     newUser.cart = []
-    newUser.admin = true
+    newUser.admin = false
     return this.http.post<AccessData>(this.registerUrl,newUser)
   }
 
@@ -77,7 +77,7 @@ export class AuthService {
 
 
   logout(){
-
+    this.isAdmin = false
     this.authSubject.next(null)//comunico al subject che l'utente si è sloggato
     localStorage.removeItem('accessData')//cancello i dati dell'utente
 

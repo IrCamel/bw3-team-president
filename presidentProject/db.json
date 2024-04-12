@@ -1,167 +1,26 @@
 {
   "users": [
     {
-      "email": "luca@mail.it",
-      "password": "$2a$10$8ys3qzz.2ZEbvcTXCF3KD.A3qAyBjW3hz9cFRTuTPRyLZvn7aWIba",
-      "firstName": "Luca",
-      "lastName": "Di Pietro",
-      "address": "Via Pippo 1",
-      "phone": 392333222,
+      "email": "admin@admin.it",
+      "password": "$2a$10$uosregCxUTP9EZnoot3PFeT5cmX3HX3kwqJYSabOXeaMv5PCzkMFe",
+      "firstName": "Nathaniel",
+      "lastName": "Townsend",
+      "address": "Molestias non dolor ",
+      "phone": 40,
+      "cart": [],
+      "admin": true,
       "id": 1
     },
     {
-      "email": "bello@gmail.it",
-      "password": "$2a$10$vt25cKIQ3n/x4ksD3ShGCe8f3L8aroFFsF2.xtvoklBlGBHRkFuQq",
-      "firstName": "Dario",
-      "lastName": "Cantini",
-      "address": "ciao 21",
-      "phone": 123,
+      "email": "user1@mail.it",
+      "password": "$2a$10$odNvR2Vj7qc9E.N3jy3HWuWqFci1deDiGfA7e64o7.BluObrNeALq",
+      "firstName": "Ivan",
+      "lastName": "Sherman",
+      "address": "Harum illum animi ",
+      "phone": 43,
+      "cart": [],
+      "admin": false,
       "id": 2
-    },
-    {
-      "email": "ciaone@gmail.com",
-      "password": "$2a$10$7nmUf2dK1RogSE8l1fLqnOT8s3pec8FPYmeVBpvfl/pgUP8cYLk66",
-      "id": 3
-    },
-    {
-      "email": "darione@gmail.com",
-      "password": "$2a$10$KHARGVVQGcgxB1JaWpPByuyOr2LblNP2CtwMjwnzXrJxHZ1rEB1CK",
-      "cart": [
-        {
-          "id": 1,
-          "image": "mjolnir-removebg-preview.png",
-          "name": "Mjolnir",
-          "price": 500,
-          "category": "Marvel",
-          "description": "La potente mazza di Thor, incantata da magia e capace di controllare il tuono."
-        },
-        {
-          "id": 7,
-          "image": "tesseract-removebg-preview.png",
-          "name": "Tesseract",
-          "price": 1800,
-          "category": "Marvel",
-          "description": "Il Tesseract, noto anche come Cubo Cosmico, un artefatto contenente il Potere dello Spazio e capace di aprire portali attraverso l'universo."
-        },
-        {
-          "id": 5,
-          "image": "agamotto_amuleto-removebg-preview.png",
-          "name": "Amuleto di Agamotto",
-          "price": 1400,
-          "category": "Marvel",
-          "description": "L'Amuleto di Agamotto, un artefatto mistico usato da Dr. Strange per manipolare il tempo e l'illusione."
-        }
-      ],
-      "id": 4
-    },
-    {
-      "email": "syzaliwi@mailinator.com",
-      "password": "$2a$10$NdWvSjc7fFdzz/FqOa3RqexYyitmy59sV8CeWq.VbIIpfXr0KuXqy",
-      "firstName": "Deirdre",
-      "lastName": "Wise",
-      "address": "Id sed in numquam po",
-      "phone": 32,
-      "cart": [],
-      "id": 5
-    },
-    {
-      "email": "mozus@mailinator.com",
-      "password": "$2a$10$pMtovoS42PgDxYiQ6ibO.OtvrKvglReAkDKnJxdjRRi/MT.HlGHcK",
-      "firstName": "Elmo",
-      "lastName": "Waller",
-      "address": "Dolor illum volupta",
-      "phone": 57,
-      "cart": [],
-      "id": 6
-    },
-    {
-      "email": "rukadycyb@mailinator.com",
-      "password": "$2a$10$IsPPd8y1pxDT7675/YRee.3ecxxWi/flxWvMM.qzvWG3Ay0uEzZLC",
-      "firstName": "Ima",
-      "lastName": "Mcdowell",
-      "address": "Aut quidem nisi volu",
-      "phone": 97,
-      "cart": [],
-      "admin": true,
-      "id": 7
-    },
-    {
-      "email": "qiwozaxov@mailinator.com",
-      "password": "$2a$10$w2sceu11qyDNrIcyCPqxmO9SMTB6v48/wPHYD4Ni7q3GT4TQz7FyS",
-      "firstName": "Harriet",
-      "lastName": "Callahan",
-      "address": "Aliqua Ut est neque",
-      "phone": 24,
-      "cart": [],
-      "admin": true,
-      "id": 8
-    },
-    {
-      "email": "benyfoxace@mailinator.com",
-      "password": "$2a$10$wSOBJhHIvsEs3qxwJ3/RFenSX09ttbgdwqP0zuEMZzVVkj2oKpnE6",
-      "firstName": "Jacob",
-      "lastName": "Ross",
-      "address": "Dolore nulla enim el",
-      "phone": 1,
-      "cart": [
-        {
-          "id": 2,
-          "image": "scudo_cap-removebg-preview.png",
-          "name": "Scudo di Captain America",
-          "price": 350,
-          "category": "Marvel",
-          "description": "L'iconico scudo del Capitano America, realizzato in vibranio e resistente a qualsiasi attacco."
-        },
-        {
-          "id": 3,
-          "image": "stormbreaker-removebg-preview.png",
-          "name": "Stormbreaker",
-          "price": 600,
-          "category": "Marvel",
-          "description": "L'arma usata da Thor, un'ascia imponente e potente, capace di schiacciare qualsiasi nemico."
-        },
-        {
-          "id": 2,
-          "image": "scudo_cap-removebg-preview.png",
-          "name": "Scudo di Captain America",
-          "price": 350,
-          "category": "Marvel",
-          "description": "L'iconico scudo del Capitano America, realizzato in vibranio e resistente a qualsiasi attacco."
-        }
-      ],
-      "admin": true,
-      "id": 9
-    },
-    {
-      "email": "lyjezukeki@mailinator.com",
-      "password": "$2a$10$dcarzkAFAxnfoAbno/vQReuvW8CyC/BVbAKYpDUHKcO7km919r2Ze",
-      "firstName": "Brynne",
-      "lastName": "Edwards",
-      "address": "Dolor quisquam nostr",
-      "phone": 34,
-      "cart": [
-        {
-          "id": 6,
-          "image": "guanto_thanos-removebg-preview.png",
-          "name": "Guanto del Potere",
-          "price": 2000,
-          "category": "Marvel",
-          "description": "Il Guanto del Potere, un artefatto forgiato da Thanos e usato per contenere le sei Gemme dell'Infinito, conferendo potere assoluto a chi lo indossa."
-        }
-      ],
-      "admin": true,
-      "id": 10
-    },
-    {
-      "email": "admin@admin.it",
-      "password": "$2a$10$crx.4inM5561hvZFvaXPgul0Hghg6QL.ELAjVzXUCsR8Jc1TJ2T4O",
-      "firstName": "Vernon",
-      "lastName": "Padilla",
-      "address": "Nihil laboriosam as",
-      "phone": 41,
-      "cart": [],
-      "admin": true,
-      "id": 11
     }
   ],
   "product": [
