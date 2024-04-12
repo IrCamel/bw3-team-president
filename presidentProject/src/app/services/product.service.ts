@@ -34,6 +34,11 @@ export class ProductService {
   deleteProduct(id: number){
     return this.http.delete(this.productUrl+'/'+id)
   }
+
+  editProduct(product: iProduct){
+          return this.http.patch<iProduct>(this.productUrl+'/'+product.id, product)
+    }
+
 }
 
 

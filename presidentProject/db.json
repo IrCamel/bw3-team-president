@@ -27,7 +27,16 @@
       "lastName": "Reyes",
       "address": "Ut et labore eu aute",
       "phone": 24,
-      "cart": [],
+      "cart": [
+        {
+          "id": 2,
+          "image": "scudo_cap-removebg-preview.png",
+          "name": "Scudo di Captain America",
+          "price": 350,
+          "category": "Marvel",
+          "description": "L'iconico scudo del Capitano America, realizzato in vibranio e resistente a qualsiasi attacco."
+        }
+      ],
       "admin": true,
       "id": 3
     }
@@ -53,7 +62,7 @@
       "id": 3,
       "image": "stormbreaker-removebg-preview.png",
       "name": "Stormbreaker",
-      "price": 600,
+      "price": "600",
       "category": "Marvel",
       "description": "L'arma usata da Thor, un'ascia imponente e potente, capace di schiacciare qualsiasi nemico."
     },
