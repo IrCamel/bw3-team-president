@@ -39,6 +39,13 @@
       ],
       "admin": true,
       "id": 3
+    },
+    {
+      "email": "glauco@ilcaneperfetto.it",
+      "password": "$2a$10$8nsOIHXRJuUF92Kzo2kLJOQPwIywwethqpIatoIbLIP6zlO2eKMhS",
+      "cart": [],
+      "admin": false,
+      "id": 4
     }
   ],
   "product": [
