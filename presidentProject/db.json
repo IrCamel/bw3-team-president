@@ -1,35 +1,51 @@
 {
   "users": [
     {
-      "email": "user1@mail.it",
-      "password": "$2a$10$odNvR2Vj7qc9E.N3jy3HWuWqFci1deDiGfA7e64o7.BluObrNeALq",
-      "firstName": "Ivan",
-      "lastName": "Sherman",
-      "address": "Harum illum animi ",
-      "phone": 43,
+      "email": "admin@admin.it",
+      "password": "$2a$10$LKav0vMBnsiXjDH.Z6BaIeOaX6qtWiW5/PWUDExFBj5xYwEto6WMe",
+      "firstName": "Raphael",
+      "lastName": "Kent",
+      "address": "Quam incididunt sed ",
+      "phone": 86,
       "cart": [
         {
-          "id": 2,
-          "image": "scudo_cap-removebg-preview.png",
-          "name": "Scudo di Captain America",
-          "price": 350,
+          "id": 5,
+          "image": "agamotto_amuleto-removebg-preview.png",
+          "name": "Amuleto di Agamotto",
+          "price": 1400,
           "category": "Marvel",
-          "description": "L'iconico scudo del Capitano America, realizzato in vibranio e resistente a qualsiasi attacco."
+          "description": "L'Amuleto di Agamotto, un artefatto mistico usato da Dr. Strange per manipolare il tempo e l'illusione."
+        },
+        {
+          "id": 6,
+          "image": "guanto_thanos-removebg-preview.png",
+          "name": "Guanto del Potere",
+          "price": 2000,
+          "category": "Marvel",
+          "description": "Il Guanto del Potere, un artefatto forgiato da Thanos e usato per contenere le sei Gemme dell'Infinito, conferendo potere assoluto a chi lo indossa."
+        },
+        {
+          "id": 1,
+          "image": "mjolnir-removebg-preview.png",
+          "name": "Mjolnir",
+          "price": 500,
+          "category": "Marvel",
+          "description": "La potente mazza di Thor, incantata da magia e capace di controllare il tuono."
         }
       ],
-      "admin": false,
-      "id": 2
+      "admin": true,
+      "id": 1
     },
     {
-      "email": "admin@admin.it",
-      "password": "$2a$10$mwl/6aDrj/EscC3a19kw0eQTQ9pTdFsqRETX/TltEwsa3a.CHo6ge",
-      "firstName": "Scott",
-      "lastName": "Reyes",
-      "address": "Ut et labore eu aute",
-      "phone": 24,
+      "email": "user1@mail.it",
+      "password": "$2a$10$kGo8QDenXpe5NYhpQZCW1.34cxkqlu3hlszCqgugjl9FhWO1GQEau",
+      "firstName": "Kylan",
+      "lastName": "Lyons",
+      "address": "Mollitia mollit non ",
+      "phone": 43,
       "cart": [],
-      "admin": true,
-      "id": 3
+      "admin": false,
+      "id": 2
     }
   ],
   "product": [
@@ -53,7 +69,7 @@
       "id": 3,
       "image": "stormbreaker-removebg-preview.png",
       "name": "Stormbreaker",
-      "price": 600,
+      "price": "600",
       "category": "Marvel",
       "description": "L'arma usata da Thor, un'ascia imponente e potente, capace di schiacciare qualsiasi nemico."
     },

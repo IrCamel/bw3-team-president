@@ -45,7 +45,7 @@ export class AuthService {
 
   constructor(
     private http:HttpClient,//per le chiamate http
-    private router:Router//per i redirect
+    private router:Router,//per i redirect
     ) {
 
       this.restoreUser()//come prima cosa controllo se è già attiva una sessione, e la ripristino
@@ -77,6 +77,7 @@ export class AuthService {
 
 
   logout(){
+
     this.isAdmin = false
     this.authSubject.next(null)//comunico al subject che l'utente si è sloggato
     localStorage.removeItem('accessData')//cancello i dati dell'utente

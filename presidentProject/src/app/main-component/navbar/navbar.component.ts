@@ -1,3 +1,4 @@
+import { UserCartService } from './../../pages/user-cart/user-cart.service';
 import { Component } from '@angular/core';
 import { NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
 import { RouterLink } from '@angular/router';
@@ -14,7 +15,7 @@ export class NavbarComponent {
   isUserLoggedIn: boolean = false;
   isAdmin: boolean = false
 
-  constructor(private authSvc: AuthService) { }
+  constructor(private authSvc: AuthService, private userSvc: UserCartService) { }
 
   ngOnInit() {
     this.authSvc.isLoggedIn$.subscribe(data => {
@@ -24,6 +25,7 @@ export class NavbarComponent {
   }
 
   logout() {
+    this.userSvc.totalSubj.next(0)
     this.authSvc.logout()
   }
 }

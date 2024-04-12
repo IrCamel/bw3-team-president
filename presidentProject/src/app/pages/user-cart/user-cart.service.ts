@@ -37,9 +37,12 @@ export class UserCartService {
       this.user.cart = [];
     }
     delete this.user.password
+    this.total$.subscribe(total => console.log(total));
+
     this.user.cart.push(product);
     this.total += product.price
     this.totalSubj.next(this.total)
+    this.total$.subscribe(total => console.log(total));
     this.editUserData(this.user).subscribe(newUser => {
       this.authSvc.authSubject.next(newUser);
     });
