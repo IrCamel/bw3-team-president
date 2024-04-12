@@ -1,26 +1,35 @@
 {
   "users": [
     {
-      "email": "admin@admin.it",
-      "password": "$2a$10$uosregCxUTP9EZnoot3PFeT5cmX3HX3kwqJYSabOXeaMv5PCzkMFe",
-      "firstName": "Nathaniel",
-      "lastName": "Townsend",
-      "address": "Molestias non dolor ",
-      "phone": 40,
-      "cart": [],
-      "admin": true,
-      "id": 1
-    },
-    {
       "email": "user1@mail.it",
       "password": "$2a$10$odNvR2Vj7qc9E.N3jy3HWuWqFci1deDiGfA7e64o7.BluObrNeALq",
       "firstName": "Ivan",
       "lastName": "Sherman",
       "address": "Harum illum animi ",
       "phone": 43,
-      "cart": [],
+      "cart": [
+        {
+          "id": 2,
+          "image": "scudo_cap-removebg-preview.png",
+          "name": "Scudo di Captain America",
+          "price": 350,
+          "category": "Marvel",
+          "description": "L'iconico scudo del Capitano America, realizzato in vibranio e resistente a qualsiasi attacco."
+        }
+      ],
       "admin": false,
       "id": 2
+    },
+    {
+      "email": "admin@admin.it",
+      "password": "$2a$10$mwl/6aDrj/EscC3a19kw0eQTQ9pTdFsqRETX/TltEwsa3a.CHo6ge",
+      "firstName": "Scott",
+      "lastName": "Reyes",
+      "address": "Ut et labore eu aute",
+      "phone": 24,
+      "cart": [],
+      "admin": true,
+      "id": 3
     }
   ],
   "product": [
