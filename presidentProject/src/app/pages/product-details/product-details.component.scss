@@ -27,6 +27,38 @@
   position: relative;
 }
 
+.DeleteBtn{
+  width: 140px;
+  height: 40px;
+  border-radius: 12px;
+  border: none;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition-duration: .5s;
+  overflow: hidden;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.103);
+  position: relative;
+}
+.EditBtn{
+
+  width: 140px;
+  height: 40px;
+  border-radius: 12px;
+  border: none;
+  background-color: lightskyblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition-duration: .5s;
+  overflow: hidden;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.103);
+  position: relative;
+}
+
 .IconContainer {
   position: absolute;
   left: -50px;

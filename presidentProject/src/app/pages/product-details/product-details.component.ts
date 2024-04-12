@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { ProductService } from '../../services/product.service';
 import { iProduct } from '../../models/product';
 
@@ -12,7 +12,7 @@ export class ProductDetailsComponent implements OnInit {
   productId!: number;
   productArr: iProduct[] = [];
 
-  constructor(private route: ActivatedRoute, private productService: ProductService) { }
+  constructor(private route: ActivatedRoute, private productService: ProductService, private router: Router) { }
 
   ngOnInit(): void {
     this.route.params.subscribe(params => {
@@ -26,5 +26,9 @@ export class ProductDetailsComponent implements OnInit {
       (product: iProduct) => {
         this.productArr = [product];
       });
+  }
+
+  deleteProduct(id:number){
+    this.productService.deleteProduct(id).subscribe(() => this.router.navigate(['']))
   }
 }

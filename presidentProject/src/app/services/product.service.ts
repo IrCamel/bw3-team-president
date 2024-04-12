@@ -30,4 +30,10 @@ export class ProductService {
     const url = `${this.productUrl}/${id}`;
     return this.http.get<iProduct>(url);
   }
+
+  deleteProduct(id: number){
+    return this.http.delete(this.productUrl+'/'+id)
+  }
 }
+
+

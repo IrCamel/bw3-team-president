@@ -55,8 +55,90 @@
       "id": 4
     },
     {
-      "email": "glauco@ilcaneperfetto",
-      "password": "$2a$10$OwUp67EETpRHIGFvVvlJU.mMukYbnjU8vhMXDalRoNhizAgr2jgB6",
+      "email": "syzaliwi@mailinator.com",
+      "password": "$2a$10$NdWvSjc7fFdzz/FqOa3RqexYyitmy59sV8CeWq.VbIIpfXr0KuXqy",
+      "firstName": "Deirdre",
+      "lastName": "Wise",
+      "address": "Id sed in numquam po",
+      "phone": 32,
+      "cart": [],
+      "id": 5
+    },
+    {
+      "email": "mozus@mailinator.com",
+      "password": "$2a$10$pMtovoS42PgDxYiQ6ibO.OtvrKvglReAkDKnJxdjRRi/MT.HlGHcK",
+      "firstName": "Elmo",
+      "lastName": "Waller",
+      "address": "Dolor illum volupta",
+      "phone": 57,
+      "cart": [],
+      "id": 6
+    },
+    {
+      "email": "rukadycyb@mailinator.com",
+      "password": "$2a$10$IsPPd8y1pxDT7675/YRee.3ecxxWi/flxWvMM.qzvWG3Ay0uEzZLC",
+      "firstName": "Ima",
+      "lastName": "Mcdowell",
+      "address": "Aut quidem nisi volu",
+      "phone": 97,
+      "cart": [],
+      "admin": true,
+      "id": 7
+    },
+    {
+      "email": "qiwozaxov@mailinator.com",
+      "password": "$2a$10$w2sceu11qyDNrIcyCPqxmO9SMTB6v48/wPHYD4Ni7q3GT4TQz7FyS",
+      "firstName": "Harriet",
+      "lastName": "Callahan",
+      "address": "Aliqua Ut est neque",
+      "phone": 24,
+      "cart": [],
+      "admin": true,
+      "id": 8
+    },
+    {
+      "email": "benyfoxace@mailinator.com",
+      "password": "$2a$10$wSOBJhHIvsEs3qxwJ3/RFenSX09ttbgdwqP0zuEMZzVVkj2oKpnE6",
+      "firstName": "Jacob",
+      "lastName": "Ross",
+      "address": "Dolore nulla enim el",
+      "phone": 1,
+      "cart": [
+        {
+          "id": 2,
+          "image": "scudo_cap-removebg-preview.png",
+          "name": "Scudo di Captain America",
+          "price": 350,
+          "category": "Marvel",
+          "description": "L'iconico scudo del Capitano America, realizzato in vibranio e resistente a qualsiasi attacco."
+        },
+        {
+          "id": 3,
+          "image": "stormbreaker-removebg-preview.png",
+          "name": "Stormbreaker",
+          "price": 600,
+          "category": "Marvel",
+          "description": "L'arma usata da Thor, un'ascia imponente e potente, capace di schiacciare qualsiasi nemico."
+        },
+        {
+          "id": 2,
+          "image": "scudo_cap-removebg-preview.png",
+          "name": "Scudo di Captain America",
+          "price": 350,
+          "category": "Marvel",
+          "description": "L'iconico scudo del Capitano America, realizzato in vibranio e resistente a qualsiasi attacco."
+        }
+      ],
+      "admin": true,
+      "id": 9
+    },
+    {
+      "email": "lyjezukeki@mailinator.com",
+      "password": "$2a$10$dcarzkAFAxnfoAbno/vQReuvW8CyC/BVbAKYpDUHKcO7km919r2Ze",
+      "firstName": "Brynne",
+      "lastName": "Edwards",
+      "address": "Dolor quisquam nostr",
+      "phone": 34,
       "cart": [
         {
           "id": 6,
@@ -65,57 +147,21 @@
           "price": 2000,
           "category": "Marvel",
           "description": "Il Guanto del Potere, un artefatto forgiato da Thanos e usato per contenere le sei Gemme dell'Infinito, conferendo potere assoluto a chi lo indossa."
-        },
-        {
-          "id": 22,
-          "image": "elmo_flash-removebg-preview.png",
-          "name": "Elmo di Flash",
-          "price": 350,
-          "category": "DC",
-          "description": "L'elmo di Flash, indossato dal velocista scarlatto mentre attraversa il tempo e lo spazio."
-        },
-        {
-          "id": 22,
-          "image": "elmo_flash-removebg-preview.png",
-          "name": "Elmo di Flash",
-          "price": 350,
-          "category": "DC",
-          "description": "L'elmo di Flash, indossato dal velocista scarlatto mentre attraversa il tempo e lo spazio."
-        },
-        {
-          "id": 22,
-          "image": "elmo_flash-removebg-preview.png",
-          "name": "Elmo di Flash",
-          "price": 350,
-          "category": "DC",
-          "description": "L'elmo di Flash, indossato dal velocista scarlatto mentre attraversa il tempo e lo spazio."
-        },
-        {
-          "id": 22,
-          "image": "elmo_flash-removebg-preview.png",
-          "name": "Elmo di Flash",
-          "price": 350,
-          "category": "DC",
-          "description": "L'elmo di Flash, indossato dal velocista scarlatto mentre attraversa il tempo e lo spazio."
-        },
-        {
-          "id": 22,
-          "image": "elmo_flash-removebg-preview.png",
-          "name": "Elmo di Flash",
-          "price": 350,
-          "category": "DC",
-          "description": "L'elmo di Flash, indossato dal velocista scarlatto mentre attraversa il tempo e lo spazio."
-        },
-        {
-          "id": 47,
-          "image": "elmo_di_sauron-removebg-preview.png",
-          "name": "Elmo di Sauron",
-          "price": 1200,
-          "category": "Il Signore degli Anelli",
-          "description": "L'Elmo di Sauron, che incute terrore in tutti coloro che lo vedono e simbolo del suo potere dominante."
         }
       ],
-      "id": 5
+      "admin": true,
+      "id": 10
+    },
+    {
+      "email": "admin@admin.it",
+      "password": "$2a$10$crx.4inM5561hvZFvaXPgul0Hghg6QL.ELAjVzXUCsR8Jc1TJ2T4O",
+      "firstName": "Vernon",
+      "lastName": "Padilla",
+      "address": "Nihil laboriosam as",
+      "phone": 41,
+      "cart": [],
+      "admin": true,
+      "id": 11
     }
   ],
   "product": [

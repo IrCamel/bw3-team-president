@@ -33,6 +33,7 @@ export class UserCartService {
     if (!this.user.cart) {
       this.user.cart = [];
     }
+    delete this.user.password
     this.user.cart.push(product);
     this.editUserData(this.user).subscribe(newUser => {
       this.authSvc.authSubject.next(newUser);

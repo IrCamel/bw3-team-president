@@ -7,6 +7,7 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { FormsModule } from '@angular/forms';
 import { BackofficeComponent } from './backoffice/backoffice.component';
+import { EditProductComponent } from './edit-product/edit-product.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { BackofficeComponent } from './backoffice/backoffice.component';
     AuthComponent,
     LoginComponent,
     RegisterComponent,
-    BackofficeComponent
+    BackofficeComponent,
+    EditProductComponent
   ],
   imports: [
     CommonModule,
