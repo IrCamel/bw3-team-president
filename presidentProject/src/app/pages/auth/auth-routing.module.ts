@@ -3,6 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { AuthComponent } from './auth.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { BackofficeComponent } from './backoffice/backoffice.component';
+import { EditProductComponent } from './edit-product/edit-product.component';
 
 const routes: Routes = [
   {
@@ -12,6 +14,14 @@ const routes: Routes = [
   {
     path: 'register',
     component: RegisterComponent
+  },
+  {
+    path: 'backoffice',
+    component: BackofficeComponent
+  },
+  {
+    path: 'edit-product/:id',
+    component: EditProductComponent
   }
 ];
 

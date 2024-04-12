@@ -1,0 +1,31 @@
+<div class="container mt-5">
+  <h2 class="title fs-2 mb-5">Modifica prodotto</h2>
+<form>
+  <div class="form_group">
+    <label class="sub_title" for="name">Nome</label>
+    <input name="name" placeholder="Inserisci il tuo nome" class="form_style" type="text"
+      [(ngModel)]="product.name" />
+  </div>
+  <div class="form_group">
+    <label class="sub_title" for="description">Descrizione</label>
+    <input name="description" placeholder="Inserisci la tua password" class="form_style" type="text"
+      [(ngModel)]="product.description" />
+  </div>
+  <div class="form_group">
+    <label class="sub_title" for="price">Prezzo</label>
+    <input name="price" placeholder="Inserisci il tuo indirizzo" class="form_style" type="text"
+      [(ngModel)]="product.price" />
+  </div>
+  <div class="form_group">
+    <label class="sub_title" for="category">Categoria</label>
+    <input name="category" placeholder="Inserisci il tuo indirizzo" class="form_style" type="text"
+      [(ngModel)]="product.category" />
+  </div>
+  <div class="form_group">
+    <label class="sub_title" for="image">Immagine</label>
+    <input name="image" placeholder="Inserisci la tua mail" class="form_style" type="text"
+      [(ngModel)]="product.image" />
+  </div>
+  <!-- <button (click)="editUserData(user)" class="btn">Modifica</button> -->
+</form>
+</div>

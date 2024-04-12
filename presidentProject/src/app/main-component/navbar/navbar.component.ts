@@ -12,12 +12,14 @@ export class NavbarComponent {
     isMenuCollapsed = true;
   show: boolean = false;
   isUserLoggedIn: boolean = false;
+  isAdmin: boolean = false
 
   constructor(private authSvc: AuthService) { }
 
   ngOnInit() {
     this.authSvc.isLoggedIn$.subscribe(data => {
       this.isUserLoggedIn = data;
+      this.isAdmin = this.authSvc.isAdmin
     })
   }
 

@@ -1,0 +1,62 @@
+<div class="main-container">
+  <div class="container">
+    <div class="form_area p-5">
+      <p class="title">Aggiungi un nuovo prodotto!</p>
+      <form>
+        <div class="form_group">
+          <label class="sub_title" for="image">Immagine</label>
+          <input
+            name="image"
+            placeholder="Inserisci un immagine"
+            class="form_style"
+            type="text"
+            [(ngModel)]="newProduct.image"
+          />
+        </div>
+        <div class="form_group">
+          <label class="sub_title" for="name">Nome</label>
+          <input
+            name="name"
+            placeholder="Inserisci un nome"
+            class="form_style"
+            type="text"
+            [(ngModel)]="newProduct.name"
+          />
+        </div>
+        <div class="form_group">
+          <label class="sub_title" for="price">Prezzo</label>
+          <input
+            name="price"
+            placeholder="Inserisci il prezzo"
+            class="form_style"
+            type="number"
+            [(ngModel)]="newProduct.price"
+          />
+        </div>
+        <div class="form_group">
+          <label class="sub_title" for="category">Categoria</label>
+          <input
+            name="category"
+            placeholder="Inserisci la categoria"
+            class="form_style"
+            type="text"
+            [(ngModel)]="newProduct.category"
+          />
+        </div>
+        <div class="form_group">
+          <label class="sub_title" for="description">Descrizione</label>
+          <input
+            name="description"
+            placeholder="Inserisci la descrizione"
+            class="form_style"
+            type="email"
+            [(ngModel)]="newProduct.description"
+          />
+        </div>
+        <div>
+          <button (click)="createProduct()" class="btn">Crea ora</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
