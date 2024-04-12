@@ -14,8 +14,8 @@ export class CartElementComponent {
 
   constructor(private userSvc: UserCartService){}
 
-  removeFromCart(id: number){
-    this.userSvc.removeItem(id).subscribe()
+  removeFromCart(product: iProduct){
+    this.userSvc.removeItem(product)
   }
 
 }
