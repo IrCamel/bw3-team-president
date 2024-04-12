@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable, tap } from 'rxjs';
+import { BehaviorSubject, Observable, tap } from 'rxjs';
 import { environment } from '../../../environments/environment.development';
 import { iProduct } from '../../models/product';
 import { iUser } from '../../models/user';
@@ -20,6 +20,9 @@ export class UserCartService {
   apiUrl: string = environment.userUrl
 
   user!: iUser
+  total: number = 0
+  totalSubj = new BehaviorSubject<number>(0)
+  total$ = this.totalSubj.asObservable()
 
   getUser(user: iUser): Observable<iUser>{
     return this.http.get<iUser>(this.apiUrl+'/'+user.id)
@@ -34,21 +37,21 @@ export class UserCartService {
       this.user.cart = [];
     }
     this.user.cart.push(product);
+    this.total += product.price
+    this.totalSubj.next(this.total)
     this.editUserData(this.user).subscribe(newUser => {
-      console.log(newUser);
-
       this.authSvc.authSubject.next(newUser);
     });
   }
 
-  removeItem(id:number){
-    console.log(this.user.id);
-
-    return this.http.delete<iProduct>(this.apiUrl+`/${this.user.id}`)
-    .pipe(tap(() => {
-      const index = this.user.cart.findIndex(el => el.id == id)
+  removeItem(product: iProduct){
+      const index = this.user.cart.findIndex(el => el.id == product.id)
       this.user.cart.splice(index, 1)
-      this.authSvc.authSubject.next(this.user)
-    }))
+      this.total -= product.price
+      this.totalSubj.next(this.total)
+      this.editUserData(this.user).subscribe(newUser => {
+        this.authSvc.authSubject.next(newUser);
+      });
+    }
   }
-}
+

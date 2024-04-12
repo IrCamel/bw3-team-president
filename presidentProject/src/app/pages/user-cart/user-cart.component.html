@@ -32,7 +32,7 @@
     </form>
 
   </div>
-  <div class="col-8">
+  <div class="col-8" *ngIf="total > 0">
     <h2>Il tuo carrello:</h2>
     <div class="row g-3" *ngIf="user.cart">
       <div *ngFor="let product of cart" class="col-12">

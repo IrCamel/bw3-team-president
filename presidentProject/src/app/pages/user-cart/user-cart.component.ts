@@ -16,12 +16,13 @@ export class UserCartComponent {
       if(user){
         this.firstName = user.firstName
         this.user = user
+        // this.total = userSvc.total
         userSvc.getUser(user).subscribe(user => {
           this.cart = user.cart
-          this.cart.forEach(el => this.total += el.price)
         })
       }
     })
+    userSvc.total$.subscribe(total => this.total= total)
   }
 
   cart!: iProduct[]
