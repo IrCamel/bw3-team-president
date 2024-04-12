@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { iProduct } from '../../../models/product';
 import { CategoriesService } from '../categories.service';
+import { UserCartService } from '../../user-cart/user-cart.service';
 
 @Component({
   selector: 'app-harry-potter',
@@ -10,11 +11,15 @@ import { CategoriesService } from '../categories.service';
 export class HarryPotterComponent {
   harryPotterProducts: iProduct[] = [];
 
-  constructor(private categoriesService: CategoriesService) { }
+  constructor(private categoriesService: CategoriesService,private usercartSvc: UserCartService) { }
 
   ngOnInit(): void {
     this.categoriesService.getProductsByCategory('Harry Potter').subscribe(products => {
       this.harryPotterProducts = products;
     });
+  }
+
+  addToCart(product: iProduct){
+    this.usercartSvc.addToCart(product)
   }
 }
