@@ -21,7 +21,18 @@ export class AuthService {
 
   authSubject = new BehaviorSubject<iUser|null>(null);//se nel behavioursubject c'è null significa che l'utente non è loggato, altrimenti conterrà l'oggetto user con tutte le sue info
 
-  user$ = this.authSubject.asObservable()//contiene i dati dell'utente loggato oppure null
+  user$ = this.authSubject.asObservable().pipe(
+    tap(user => {
+      if (!user) return
+      const newAccessData: AccessData = {
+        accessToken: this.getAccessToken(),
+        user: user
+      }
+      const jsonUser = JSON.stringify(newAccessData)
+      localStorage.setItem('accessData', jsonUser)
+    })
+  )
+
   isLoggedIn$ = this.user$.pipe(
     map(user => !!user),
     tap(user =>  this.syncIsLoggedIn = user)

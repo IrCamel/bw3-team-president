@@ -53,6 +53,224 @@
         }
       ],
       "id": 4
+    },
+    {
+      "email": "prova@mail.it",
+      "password": "$2a$10$X2yxgHXzae4ZWvYtdl20ZeWHV7z86DvzPIfOOP3IYxCD34ytV9g2y",
+      "firstName": "Luca",
+      "lastName": "Di Pietro",
+      "address": "VIA BIRAGHI 21",
+      "phone": 3922448525,
+      "cart": [
+        {
+          "id": 1,
+          "image": "mjolnir-removebg-preview.png",
+          "name": "Mjolnir",
+          "price": 500,
+          "category": "Marvel",
+          "description": "La potente mazza di Thor, incantata da magia e capace di controllare il tuono."
+        }
+      ],
+      "id": 5
+    },
+    {
+      "email": "user1@mail.it",
+      "password": "$2a$10$w69onSZ/rpFcNaas9xI1oucwyEJstv00qbeVX31hiyF.jb44Tphfy",
+      "firstName": "paolo",
+      "lastName": "mauro",
+      "address": "Officia et ex quasi ",
+      "phone": 45,
+      "cart": [
+        {
+          "id": 1,
+          "image": "mjolnir-removebg-preview.png",
+          "name": "Mjolnir",
+          "price": 500,
+          "category": "Marvel",
+          "description": "La potente mazza di Thor, incantata da magia e capace di controllare il tuono."
+        },
+        {
+          "id": 2,
+          "image": "scudo_cap-removebg-preview.png",
+          "name": "Scudo di Captain America",
+          "price": 350,
+          "category": "Marvel",
+          "description": "L'iconico scudo del Capitano America, realizzato in vibranio e resistente a qualsiasi attacco."
+        },
+        {
+          "id": 6,
+          "image": "guanto_thanos-removebg-preview.png",
+          "name": "Guanto del Potere",
+          "price": 2000,
+          "category": "Marvel",
+          "description": "Il Guanto del Potere, un artefatto forgiato da Thanos e usato per contenere le sei Gemme dell'Infinito, conferendo potere assoluto a chi lo indossa."
+        },
+        {
+          "id": 11,
+          "image": "spada_luke_skywalker-removebg-preview.png",
+          "name": "Lightsaber di Luke Skywalker",
+          "price": 700,
+          "category": "Star Wars",
+          "description": "La spada laser di Luke Skywalker, simbolo della Forza e usata per combattere il Lato Oscuro."
+        },
+        {
+          "id": 19,
+          "image": "casco_x_wing-removebg-preview.png",
+          "name": "Casco da Pilota X-wing",
+          "price": 1800,
+          "category": "Star Wars",
+          "description": "Il Casco da Pilota X-wing, indossato dai piloti dell'Alleanza Ribelle durante le missioni di combattimento a bordo degli X-wing, dotato di visore e comunicatore integrati."
+        },
+        {
+          "id": 1,
+          "image": "mjolnir-removebg-preview.png",
+          "name": "Mjolnir",
+          "price": 500,
+          "category": "Marvel",
+          "description": "La potente mazza di Thor, incantata da magia e capace di controllare il tuono."
+        },
+        {
+          "id": 1,
+          "image": "mjolnir-removebg-preview.png",
+          "name": "Mjolnir",
+          "price": 500,
+          "category": "Marvel",
+          "description": "La potente mazza di Thor, incantata da magia e capace di controllare il tuono."
+        },
+        {
+          "id": 1,
+          "image": "mjolnir-removebg-preview.png",
+          "name": "Mjolnir",
+          "price": 500,
+          "category": "Marvel",
+          "description": "La potente mazza di Thor, incantata da magia e capace di controllare il tuono."
+        }
+      ],
+      "id": 6
+    },
+    {
+      "email": "user2@mail.it",
+      "password": "$2a$10$IK3GaEtQo8/T/8rDqIKtmebSDKTERuxp5pzC9TEtvQjL5iwhwlEI.",
+      "firstName": "Justine",
+      "lastName": "Dillard",
+      "address": "Aspernatur optio vo",
+      "phone": 88,
+      "cart": [
+        {
+          "id": 10,
+          "image": "iron_man_casco-removebg-preview.png",
+          "name": "Casco di Iron Man",
+          "price": 199.99,
+          "category": "Marvel",
+          "description": "Il casco iconico indossato da Iron Man, con l'ultima tecnologia di Stark Industries."
+        },
+        {
+          "id": 11,
+          "image": "spada_luke_skywalker-removebg-preview.png",
+          "name": "Lightsaber di Luke Skywalker",
+          "price": 700,
+          "category": "Star Wars",
+          "description": "La spada laser di Luke Skywalker, simbolo della Forza e usata per combattere il Lato Oscuro."
+        }
+      ],
+      "id": 7
+    },
+    {
+      "email": "user3@mail.it",
+      "password": "$2a$10$wdLKs27Tdax3AnrYYTkPX.S9p.7g6LuXORiwwf7flkz.HXeiT615e",
+      "firstName": "Clarke",
+      "lastName": "Monroe",
+      "address": "Qui magna assumenda ",
+      "phone": 20,
+      "cart": [
+        {
+          "id": 6,
+          "image": "guanto_thanos-removebg-preview.png",
+          "name": "Guanto del Potere",
+          "price": 2000,
+          "category": "Marvel",
+          "description": "Il Guanto del Potere, un artefatto forgiato da Thanos e usato per contenere le sei Gemme dell'Infinito, conferendo potere assoluto a chi lo indossa."
+        },
+        {
+          "id": 5,
+          "image": "agamotto_amuleto-removebg-preview.png",
+          "name": "Amuleto di Agamotto",
+          "price": 1400,
+          "category": "Marvel",
+          "description": "L'Amuleto di Agamotto, un artefatto mistico usato da Dr. Strange per manipolare il tempo e l'illusione."
+        },
+        {
+          "id": 10,
+          "image": "iron_man_casco-removebg-preview.png",
+          "name": "Casco di Iron Man",
+          "price": 199.99,
+          "category": "Marvel",
+          "description": "Il casco iconico indossato da Iron Man, con l'ultima tecnologia di Stark Industries."
+        },
+        {
+          "id": 11,
+          "image": "spada_luke_skywalker-removebg-preview.png",
+          "name": "Lightsaber di Luke Skywalker",
+          "price": 700,
+          "category": "Star Wars",
+          "description": "La spada laser di Luke Skywalker, simbolo della Forza e usata per combattere il Lato Oscuro."
+        },
+        {
+          "id": 23,
+          "image": "deathstroke_mask-removebg-preview.png",
+          "name": "Elmo di Deathstroke",
+          "price": 700,
+          "category": "DC",
+          "description": "L'elmo di Deathstroke, mercenario e assassino noto per la sua abilità senza pari nel combattimento."
+        }
+      ],
+      "id": 8
+    },
+    {
+      "email": "user6@mail.it",
+      "password": "$2a$10$L2XGiejScWp3ku1CwLVYUuJ9JRca8QduvhlOWK/GC0HuKrKPwrfc.",
+      "firstName": "Charles",
+      "lastName": "Morse",
+      "address": "Et sed in explicabo",
+      "phone": 89,
+      "cart": [
+        {
+          "id": 1,
+          "image": "mjolnir-removebg-preview.png",
+          "name": "Mjolnir",
+          "price": 500,
+          "category": "Marvel",
+          "description": "La potente mazza di Thor, incantata da magia e capace di controllare il tuono."
+        },
+        {
+          "id": 2,
+          "image": "scudo_cap-removebg-preview.png",
+          "name": "Scudo di Captain America",
+          "price": 350,
+          "category": "Marvel",
+          "description": "L'iconico scudo del Capitano America, realizzato in vibranio e resistente a qualsiasi attacco."
+        }
+      ],
+      "id": 9
+    },
+    {
+      "email": "user7@mail.it",
+      "password": "$2a$10$iY/iyFDP5qdoY/fr3JhPSekDhGScf/Sbylr7Y8K1q8iEoppgVVt6K",
+      "firstName": "Allen",
+      "lastName": "Rhodes",
+      "address": "Laborum voluptatem ",
+      "phone": 21,
+      "cart": [
+        {
+          "id": 9,
+          "image": "lancia_loki-removebg-preview.png",
+          "name": "Lancia di Loki",
+          "price": 199.99,
+          "category": "Marvel",
+          "description": "La lancia di Loki, il famigerato Dio dell'Inganno, con poteri mistici e capacità di controllare le menti degli altri."
+        }
+      ],
+      "id": 10
     }
   ],
   "product": [

@@ -1,0 +1,31 @@
+.btn {
+  padding: 5px;
+  margin-left: 10px;
+  // width: 290px;
+  font-size: 15px;
+  background: #ff0;
+  border-radius: 10px;
+  font-weight: 800;
+  box-shadow: 3px 3px 0px 0px rgb(199, 199, 23);
+}
+
+.btn:hover {
+  opacity: .9;
+}
+
+h4{
+  margin: 0;
+  color: white;
+}
+
+.item{
+  background-color: #033357;
+  border: 1px solid #ff0;
+  border-radius: 10px;
+  padding: 10px 10px;
+  cursor: pointer;
+  &:hover{
+    transform: scale(1.03);
+    transition: all 0.2s;
+  }
+}

@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+import { Observable, tap } from 'rxjs';
 import { environment } from '../../../environments/environment.development';
 import { iProduct } from '../../models/product';
 import { iUser } from '../../models/user';
@@ -35,7 +35,20 @@ export class UserCartService {
     }
     this.user.cart.push(product);
     this.editUserData(this.user).subscribe(newUser => {
+      console.log(newUser);
+
       this.authSvc.authSubject.next(newUser);
     });
+  }
+
+  removeItem(id:number){
+    console.log(this.user.id);
+
+    return this.http.delete<iProduct>(this.apiUrl+`/${this.user.id}`)
+    .pipe(tap(() => {
+      const index = this.user.cart.findIndex(el => el.id == id)
+      this.user.cart.splice(index, 1)
+      this.authSvc.authSubject.next(this.user)
+    }))
   }
 }
